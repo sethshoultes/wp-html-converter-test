@@ -1,0 +1,11 @@
+$ node <repo>/node_modules/@wp-playground/cli/wp-playground.js server --php=8.3 --wp=7.1.4 --port=9400 --blueprint=<repo>/.harness-tmp/static-site-importer/blueprint.json --blueprint-may-read-adjacent-files --mount=<repo>/sample-site:/wordpress/sample-site --mount=<repo>/.harness-tmp/static-site-importer:/harness
+
+WordPress Playground CLI
+
+PHP 8.3  WordPress 7.1.4
+Extensions intl, redis, memcached
+Mount <repo>/sample-site → /wordpress/sample-site
+Mount <repo>/.harness-tmp/static-site-importer → /harness
+Blueprint <repo>/.harness-tmp/static-site-importer/blueprint.json
+
+Error: Error when executing the blueprint step #7: memory access out of bounds

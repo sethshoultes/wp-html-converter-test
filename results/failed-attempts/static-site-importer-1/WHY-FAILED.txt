@@ -1,0 +1,30 @@
+static-site-importer, attempts 1 and 2 (2026-10-28, harness commit 67f704b). Not run: open question for the operator.
+
+Both attempts: `node harness/run.mjs static-site-importer`, each on a fresh
+Playground. Playground exited with code 1 before it was ready:
+
+  Error: Error when executing the blueprint step #7: memory access out of bounds
+
+Attempt 2 was the one retry allowed for "Playground did not start". It failed
+the same way, so it is deterministic, and the scored run was not retried again.
+
+Diagnostics (results/failed-attempts/static-site-importer-diagnostics/), on
+throwaway Playgrounds, not scored runs:
+
+1. run-blueprint-debug.txt: the same blueprint through `run-blueprint`. The
+   import step fails in the plugin's includes/cli.php:1335-1352. The default
+   `import` command re-launches WP-CLI in a child process with proc_open(),
+   using $_SERVER['argv'][0] and STDIN. Playground's wp-cli step provides
+   neither: "Undefined array key 0", then "proc_open(): Cannot represent a
+   stream of type user-space as a File Descriptor".
+2. single-step-*.json/txt: the plugin's own externally driven mode,
+   `import --single-step --request=... --state=...`, repeated 12 times. The
+   first step ran and wrote state with an import_id
+   (single-step-state.json). A later step crashed PHP-WASM with the same
+   "memory access out of bounds" (Playground step #11).
+
+The publisher's own Playground route (docs/playground/blueprint.json at the
+pinned commit) is different: a browser importer block from a separate demo
+plugin, PHP 8.5. TOOLS.md chose the CLI route, so that route was not tried.
+
+No results/static-site-importer/ evidence exists. No cell has been scored.

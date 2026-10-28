@@ -1,0 +1,1 @@
+{"schema":"static-site-importer/cli-import-state/v1","input":{"source":{"type":"zip","import_id":"f082cfe6e1039874f774f2579eba2f46f4fef7a27a90bc3b6acdd8fb6647be3c"},"operation":"apply","activate":true,"_cli_request_bundle_dir":"/harness"}}

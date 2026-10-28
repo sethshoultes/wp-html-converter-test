@@ -1,0 +1,12 @@
+Native temp dir for VFS root: <os-tmp>
+Mount before WP install: /home -> <os-tmp>
+Mount before WP install: /tmp -> <os-tmp>
+Mount before WP install: /tools -> <os-tmp>
+Mount before WP install: /wordpress -> <os-tmp>
+Mount after WP install: /wordpress/sample-site -> <repo>/sample-site
+Mount after WP install: /harness -> <scratch>
+Resolved WordPress release URL: https://downloads.w.org/release/wordpress-7.1.4.zip
+Error: [28-Oct-2026 18:02:16 UTC] PHP Warning:  Undefined array key 0 in /wordpress/wp-content/plugins/static-site-importer/includes/cli.php on line 1335
+[28-Oct-2026 18:02:16 UTC] PHP Warning:  proc_open(): Playground_No_Stdin_Stream::stream_cast is not implemented! in /wordpress/wp-content/plugins/static-site-importer/includes/cli.php on line 1352
+[28-Oct-2026 18:02:16 UTC] PHP Warning:  proc_open(): Cannot represent a stream of type user-space as a File Descriptor in /wordpress/wp-content/plugins/static-site-importer/includes/cli.php on line 1352
+

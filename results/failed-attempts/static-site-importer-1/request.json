@@ -1,0 +1,8 @@
+{
+  "source": {
+    "type": "zip",
+    "ref": "request-bundle:sample-site.zip"
+  },
+  "operation": "apply",
+  "activate": true
+}

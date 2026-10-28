@@ -1,0 +1,107 @@
+{
+ "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+ "meta": {
+  "title": "wp-html-converter-test base site",
+  "description": "A fresh throwaway WordPress for one converter run. The only base step turns off the editor's welcome guide so screenshots show the content. Tool steps are appended from harness/tools/<tool>.mjs.",
+  "author": "wp-html-converter-test"
+ },
+ "preferredVersions": {
+  "php": "8.3",
+  "wp": "7.1.4"
+ },
+ "login": true,
+ "siteOptions": {
+  "blogname": "Converter test site",
+  "permalink_structure": "/%postname%/"
+ },
+ "steps": [
+  {
+   "step": "activateTheme",
+   "themeFolderName": "twentytwentyfive"
+  },
+  {
+   "step": "updateUserMeta",
+   "userId": 1,
+   "meta": {
+    "wp_persisted_preferences": {
+     "core/edit-post": {
+      "welcomeGuide": false
+     },
+     "core": {
+      "welcomeGuide": false,
+      "welcomeGuideTemplate": false
+     },
+     "core/edit-site": {
+      "welcomeGuide": false,
+      "welcomeGuideStyles": false,
+      "welcomeGuidePage": false,
+      "welcomeGuideTemplate": false
+     },
+     "_modified": "2026-10-28T00:00:00.000Z"
+    }
+   }
+  },
+  {
+   "step": "installPlugin",
+   "pluginData": {
+    "resource": "vfs",
+    "path": "/harness/plugin.zip"
+   },
+   "options": {
+    "activate": true
+   }
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "wp-cli",
+   "command": "wp static-site-importer import --single-step --request=/harness/request.json --state=/harness/out/ssi-state.json"
+  },
+  {
+   "step": "runPHP",
+   "code": "<?php\nrequire '/wordpress/wp-load.php';\n$out = array( 'page_on_front' => (int) get_option( 'page_on_front' ), 'stylesheet' => get_stylesheet(), 'pages' => array() );\nforeach ( get_posts( array( 'post_type' => 'page', 'post_status' => 'any', 'numberposts' => -1 ) ) as $p ) {\n  $out['pages'][] = array( 'id' => $p->ID, 'slug' => $p->post_name, 'title' => $p->post_title, 'url' => get_permalink( $p ), 'stored_content' => $p->post_content );\n}\nfile_put_contents( '/harness/out/ssi-pages.json', wp_json_encode( $out, JSON_PRETTY_PRINT ) );\n"
+  }
+ ]
+}
