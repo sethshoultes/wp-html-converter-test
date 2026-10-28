@@ -67,6 +67,8 @@ const server = await startPlayground({
 });
 timings.boot_and_blueprint_ms = Date.now() - t;
 console.log(`Playground ${server.cli} ready at ${server.url} (pid ${server.pid})`);
+// Taken before any result file is written, so harness_dirty describes the code that ran.
+const runVersions = versions(server.cli);
 
 let browser;
 try {
@@ -101,7 +103,7 @@ try {
       tool_pin: pins.tools[toolId],
       page,
       run_date: runDate.toISOString(),
-      versions: versions(server.cli),
+      versions: runVersions,
       input: { file: `.harness-tmp/${toolId}/input/${page}.html`, sha256: sha256(inputs[page]) },
       timings,
       wordpress_page: wpPage,

@@ -50,6 +50,8 @@ const server = await startPlayground({
   logFile: path.join(work, 'playground.log'),
 });
 console.log(`Playground ${server.cli} ready at ${server.url} (pid ${server.pid})`);
+// Taken before any result file is written, so harness_dirty describes the code that ran.
+const runVersions = versions(server.cli);
 
 let browser;
 try {
@@ -75,7 +77,7 @@ try {
     dry_run: true,
     note: 'DRY RUN ONLY. Not a result. No converter was run; this proves Playground starts, mounts are visible to blueprint steps, and screenshots land.',
     run_date: startedAt.toISOString(),
-    versions: versions(server.cli),
+    versions: runVersions,
     playground: { url: server.url, pid: server.pid },
     page_id: Number(pageId),
     hello_frontend: frontend,
