@@ -134,6 +134,13 @@ Cells where a reading in SCORING-NOTES.md, not a plain check, set the score, so 
 - **Note 17 (missing-block warning is not a recovery notice):** Blocks Engine criterion 10 on index (1, not 0) and contact (2, not 0).
 - **Note 18 (Menu `<button>` has a core block):** HTML to Blocks Converter criterion 10 on index and contact (1, not 2).
 
+- **Criterion 7 on about, the YouTube player:** the player paints blank in every screenshot, the original's included (`original-about-1280.png`), so whether it "renders, at 16:9, inside the content width" is read from the iframe's recorded size in `iframes[]` for every tool. A height of 0 does not render.
+
 ## Re-score check
 
-See the "Re-score check" section added after the blind second pass.
+After the grid was committed, the scorer re-derived a sample of cells a second time from the evidence, without reading the committed scores, then compared.
+
+- **Rule as given, every 10th CSV row (rows 10, 20, ..., 200):** 20 cells. Because the CSV has exactly 10 rows per tool and page, this rule lands only on criterion 10, once per tool and page. Disagreements: 0 of 20.
+- **Second fixed rule, to cover every criterion: the diagonal**, row `10k + (k mod 10) + 1` for k = 0..19 (rows 1, 12, 23, 34, 45, 56, 67, 78, 89, 100, 101, 112, 123, 134, 145, 156, 167, 178, 189, 200): 20 cells, criteria 1 to 10 twice each, two of them `n/a`. Disagreements: 0 of 20.
+
+Disagreement rate: **0 of 40 cells (0%)**, so no cell was changed. The criterion-10 text shares were recounted with a separate script; they differ from the OBSERVATIONS.md counts by a few characters (for example 966 against 964 on rawhandler index) and change no score.
