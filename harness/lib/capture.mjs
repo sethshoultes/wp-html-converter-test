@@ -143,6 +143,7 @@ function collectEditorFacts() {
   const canvas = document.querySelector('iframe[name="editor-canvas"]');
   const doc = canvas && canvas.contentDocument ? canvas.contentDocument : document;
   return {
+    post_content: select('core/editor').getEditedPostContent(),
     blocks: flat,
     block_counts: flat.reduce((acc, b) => ({ ...acc, [b.name]: (acc[b.name] || 0) + 1 }), {}),
     invalid_blocks: flat.filter((b) => b.isValid === false).length,
