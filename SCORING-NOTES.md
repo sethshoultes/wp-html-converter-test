@@ -240,6 +240,51 @@ hero and the footer).
 colour for the same heading. "Headings use Arvo" passes when the computed
 heading font is Arvo and at least one Arvo face is `loaded`.
 
+## Addendum: three cases found while reading the evidence, before any score
+
+These three were found after notes 1 to 15 were committed, while the scorer
+read the evidence files, and before any score was written. They are decided
+from the rubric text the same way, for all five tools.
+
+### 16. An item the block editor reports invalid
+
+Rubric, score scale: "0, lost or broken: none of the criterion's checks pass,
+or what came through is broken (wrong content, unreadable, throws an error, or
+the block editor reports it invalid)."
+
+**Reading:** literal, and per item, like note 13. If an item a criterion checks
+sits in a block the editor reports invalid (`isValid` false, with the "Block
+contains unexpected or invalid content" notice), that item came through
+broken and the cell scores 0. The item is what that block itself saves: an
+invalid `core/cover` is the hero band and its background image, not the
+separately valid heading, paragraph and button blocks inside it. Criterion 9
+(computed theme styles, not page items) and criterion 10 (its own rule) are
+not affected by this note. An added placeholder option in a select is judged
+by note 8, not as "wrong content".
+
+### 17. A missing-block warning is not a recovery notice
+
+The rubric defines the notice it means: "every "This block contains unexpected
+or invalid content" (block recovery) notice". The harness counts every
+`.block-editor-warning`, which also catches the editor's "Your site doesn't
+include support for the "custom/..." block" warning on an unregistered block
+(`core/missing`, `isValid` true).
+
+**Reading:** literal. Only the "unexpected or invalid content" notice is a
+block recovery notice. A missing-block warning is not, and the block is not
+reported invalid. The `recovery_notices` count is read together with the
+editor screenshot and the console messages to tell the two apart.
+
+### 18. The small-screen Menu `<button>` in criterion 10
+
+Criterion 10 lists the content that has a core block: "(heading, paragraph,
+list, table, image, gallery, quote, code, buttons, embed)", and the content
+that has none: "(inline SVG, form, script)".
+
+**Reading:** literal. The Menu control is a `<button>`, and "buttons" is in the
+first list, so a Menu button kept in a Custom HTML block fails criterion 10's
+third check. It is not a form or a script.
+
 ## Outputs
 
 `results/SCORES.csv` is the full grid the rubric asks for (the rubric names it
