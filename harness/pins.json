@@ -20,7 +20,24 @@
       "commit": "54c883f13cb77e54ed2ee2312b7f6deb9ce0a5fd",
       "zip": "https://github.com/Automattic/static-site-importer/releases/download/v1.33.179/static-site-importer.zip",
       "zip_sha256": "d7c2238cd8ef75e35b358ea3e86d2e56f258b8e4cb69e5fbe4dc720404ebbc57",
-      "source": "https://github.com/Automattic/static-site-importer"
+      "source": "https://github.com/Automattic/static-site-importer",
+      "php": "8.5",
+      "route": "The publisher's own Playground route (docs/playground/blueprint.json at the pinned commit): the importer block from its separate demo plugin, a ZIP uploaded in the browser. Its CLI import cannot run in Playground (results/failed-attempts/static-site-importer-1).",
+      "route_source": "https://github.com/Automattic/static-site-importer/blob/54c883f13cb77e54ed2ee2312b7f6deb9ce0a5fd/docs/playground/blueprint.json",
+      "playground_demo": {
+        "name": "Static Site Importer Playground Demo 1.0.0",
+        "commit": "54c883f13cb77e54ed2ee2312b7f6deb9ce0a5fd",
+        "path": "demos/playground-importer",
+        "note": "GitHub Pages publication stops at v1.28.0, so no demo zip exists for v1.33.179. The harness fetches these files at the pinned commit, refuses any sha256 mismatch, and zips them.",
+        "files": {
+          "blocks/importer/block.json": "8e80462e9b1cd946aa57499e7fb980897f5572b3c8ce7dd2d4761f7642a168fd",
+          "blocks/importer/style.css": "908b196a5f03d81957867556930f081e2ec14938ee2b669d42702f168567c4e7",
+          "blocks/importer/view.js": "2ab028643a422d81fee8fa290cecea7542f699df96cf91e158f7a7a7fc5b1ea2",
+          "includes/block.php": "c44dafa5fa1d1d25163f9801a10d874e627d6878b8e09eda6eecec6864aad7ed",
+          "includes/networking.php": "479e8fdfe1e925dc2de60e7d5fe14afcb26aa59d51204f4cad798263dc903541",
+          "static-site-importer-playground-demo.php": "0e45e792ec580f568f57a96c1d83a2b248777b7a228938825e74b5cc55ea8f93"
+        }
+      }
     },
     "blocks-engine": {
       "name": "Blocks Engine PHP Transformer",

@@ -23,8 +23,8 @@ function cliBin() {
   return path.join(path.dirname(pkgPath), bin);
 }
 
-export async function startPlayground({ pins, blueprintPath, mounts, logFile, timeoutMs = 300_000 }) {
-  const { php, wp, port, playground_cli: pinnedCli } = pins.platform;
+export async function startPlayground({ pins, php = pins.platform.php, blueprintPath, mounts, logFile, timeoutMs = 300_000 }) {
+  const { wp, port, playground_cli: pinnedCli } = pins.platform;
   const installed = cliVersion();
   if (installed !== pinnedCli) {
     throw new Error(`@wp-playground/cli ${installed} is installed but ${pinnedCli} is pinned. Run npm ci.`);

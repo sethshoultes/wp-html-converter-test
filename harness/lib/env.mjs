@@ -27,9 +27,12 @@ export function rubricCommit() {
   return readFileSync(path.join(ROOT, 'README.md'), 'utf8').match(/Rubric commit: `([0-9a-f]{40})`/)?.[1] ?? null;
 }
 
-export function versions(cli) {
+// A tool may pin its own PHP (pins.json tools.<id>.php); every other run uses the platform's.
+export const phpFor = (toolId) => pins.tools[toolId]?.php ?? pins.platform.php;
+
+export function versions(cli, php = pins.platform.php) {
   return {
-    php: pins.platform.php,
+    php,
     wp: pins.platform.wp,
     theme: `${pins.platform.theme} ${pins.platform.theme_version}`,
     playground_cli: cli,
@@ -43,11 +46,12 @@ export function versions(cli) {
 
 // Base blueprint from the repo, with a tool's steps appended. The merged copy
 // is written into the run's work dir and also kept with the results.
-export function buildBlueprint(extraSteps, outFile) {
+export function buildBlueprint(extraSteps, outFile, php = pins.platform.php) {
   const base = JSON.parse(readFileSync(path.join(ROOT, 'harness', 'blueprint.json'), 'utf8'));
   if (base.preferredVersions.php !== pins.platform.php || base.preferredVersions.wp !== pins.platform.wp) {
     throw new Error('harness/blueprint.json preferredVersions do not match harness/pins.json');
   }
+  base.preferredVersions.php = php;
   base.steps = [{ step: 'activateTheme', themeFolderName: pins.platform.theme }, ...base.steps, ...extraSteps];
   mkdirSync(path.dirname(outFile), { recursive: true });
   writeFileSync(outFile, `${JSON.stringify(base, null, 2)}\n`);

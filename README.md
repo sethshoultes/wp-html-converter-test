@@ -35,7 +35,7 @@ That commit adds `RUBRIC.md` and nothing else, before any converter was run.
 | `@wp-playground/cli` | 3.1.61 (`npm view @wp-playground/cli@latest version` was 3.1.61 on 2026-10-28) | npm | |
 | Playwright (Chromium) | 1.57.0 | npm | |
 | Gutenberg `rawHandler` | bundled in WordPress 7.1.4 | [WordPress/gutenberg](https://github.com/WordPress/gutenberg/tree/trunk/packages/blocks/src/api/raw-handling) | |
-| Static Site Importer | v1.33.179 (`54c883f`) | [Automattic/static-site-importer](https://github.com/Automattic/static-site-importer) | |
+| Static Site Importer | v1.33.179 (`54c883f`), run under PHP 8.5 by its publisher's Playground route (TOOLS.md) | [Automattic/static-site-importer](https://github.com/Automattic/static-site-importer) | |
 | Blocks Engine PHP Transformer | php-transformer-v0.44.217 (`ece89fe`) | [Automattic/blocks-engine](https://github.com/Automattic/blocks-engine) | |
 | Block Runner | `block-runner@1.0.0` (`a50f986`) | [humanmade/block-runner](https://github.com/humanmade/block-runner) | |
 | HTML to Blocks Converter | v0.7.2 (`8736740`) | [chubes4/html-to-blocks-converter](https://github.com/chubes4/html-to-blocks-converter) | |

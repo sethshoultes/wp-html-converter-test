@@ -12,7 +12,7 @@ import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import path from 'node:path';
 import { chromium } from 'playwright';
 import { captureEditor, captureFrontend } from './lib/capture.mjs';
-import { RESULTS_DIR, SAMPLE_DIR, WORK_DIR, buildBlueprint, git, pins, rubricCommit, sampleMount, servedBase, versions, writeJson } from './lib/env.mjs';
+import { RESULTS_DIR, SAMPLE_DIR, WORK_DIR, buildBlueprint, git, phpFor, pins, rubricCommit, sampleMount, servedBase, versions, writeJson } from './lib/env.mjs';
 import { pageBody } from './lib/input.mjs';
 import { startPlayground } from './lib/playground.mjs';
 import { sha256, writeInputs } from './tools/common.mjs';
@@ -56,11 +56,13 @@ let t = Date.now();
 const steps = await adapter.prepare(ctx);
 timings.prepare_ms = Date.now() - t;
 const blueprintFile = path.join(work, 'blueprint.json');
-buildBlueprint(steps, blueprintFile);
+const php = phpFor(toolId);
+buildBlueprint(steps, blueprintFile, php);
 
 t = Date.now();
 const server = await startPlayground({
   pins,
+  php,
   blueprintPath: blueprintFile,
   mounts: [sampleMount, `${work}:/harness`],
   logFile: path.join(work, 'playground.log'),
@@ -68,7 +70,7 @@ const server = await startPlayground({
 timings.boot_and_blueprint_ms = Date.now() - t;
 console.log(`Playground ${server.cli} ready at ${server.url} (pid ${server.pid})`);
 // Taken before any result file is written, so harness_dirty describes the code that ran.
-const runVersions = versions(server.cli);
+const runVersions = versions(server.cli, php);
 
 let browser;
 try {
@@ -76,7 +78,8 @@ try {
     throw new Error(`Playground is at ${server.url}, expected ${expectedUrl}; inputs were resolved against the expected one.`);
   }
   const readOut = (name) => JSON.parse(readFileSync(path.join(work, 'out', name), 'utf8'));
-  ctx.wpPages = adapter.mapPages ? adapter.mapPages(ctx, readOut('ssi-pages.json')) : readOut('pages.json');
+  // Tools that create their own pages (mapPages) are listed after afterBoot, which may be where they run.
+  ctx.wpPages = adapter.mapPages ? null : readOut('pages.json');
 
   browser = await chromium.launch();
   let afterBoot = {};
@@ -84,6 +87,9 @@ try {
     t = Date.now();
     afterBoot = await adapter.afterBoot(ctx, browser);
     timings.after_boot_ms = Date.now() - t;
+  }
+  if (adapter.mapPages) {
+    ctx.wpPages = adapter.mapPages(ctx, readOut('ssi-pages.json'));
   }
 
   const rel = (p) => path.relative(out, p);
@@ -110,7 +116,11 @@ try {
       original,
       converted: null,
       editor: null,
-      after_boot: afterBoot.converted_markup ? { converted_markup: afterBoot.converted_markup[page] } : null,
+      after_boot: afterBoot.converted_markup
+        ? { converted_markup: afterBoot.converted_markup[page] }
+        : afterBoot.import
+          ? { import: afterBoot.import }
+          : null,
       checks: null,
       scores: null,
     };

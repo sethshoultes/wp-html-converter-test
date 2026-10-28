@@ -3,15 +3,16 @@
 
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { test } from 'node:test';
 import { autoLoginCookie } from '../lib/capture.mjs';
-import { SAMPLE_DIR, pins } from '../lib/env.mjs';
+import { SAMPLE_DIR, buildBlueprint, phpFor, pins } from '../lib/env.mjs';
 import { pageBody } from '../lib/input.mjs';
 import { nodeSupported } from '../tools/block-runner.mjs';
-import { insertPagesPhp } from '../tools/common.mjs';
+import { insertPagesPhp, sha256 } from '../tools/common.mjs';
+import { buildDemoZip } from '../tools/static-site-importer.mjs';
 
 const BASE = 'http://127.0.0.1:9400/sample-site/';
 
@@ -56,4 +57,28 @@ test('generated page-insert PHP is valid PHP', () => {
 test('the logged-out cookie covers the whole site, so a redirect from /home/ to / stays logged out', () => {
   const cookie = autoLoginCookie('http://127.0.0.1:9400/home/');
   assert.deepEqual(cookie, { name: 'playground_auto_login_already_happened', value: '1', domain: '127.0.0.1', path: '/' });
+});
+
+test('Static Site Importer runs under its own pinned PHP; every other tool under the platform PHP', () => {
+  assert.equal(phpFor('static-site-importer'), '8.5');
+  for (const id of ['rawhandler', 'blocks-engine', 'block-runner', 'html-to-blocks-converter']) {
+    assert.equal(phpFor(id), pins.platform.php);
+  }
+  const dir = mkdtempSync(path.join(os.tmpdir(), 'h2b-bp-'));
+  assert.equal(buildBlueprint([], path.join(dir, 'a.json'), phpFor('static-site-importer')).preferredVersions.php, '8.5');
+  assert.equal(buildBlueprint([], path.join(dir, 'b.json')).preferredVersions.php, pins.platform.php);
+  assert.equal(JSON.parse(readFileSync(path.join(dir, 'a.json'), 'utf8')).preferredVersions.wp, pins.platform.wp);
+});
+
+test('the demo plugin is zipped only when every file matches its pinned sha256', async () => {
+  const demo = { commit: 'abc', path: 'demos/x', files: { 'a.php': sha256('<?php // a'), 'b/c.js': sha256('c') } };
+  const good = { 'a.php': '<?php // a', 'b/c.js': 'c' };
+  const fetchFrom = (files) => async (url) => files[Object.keys(files).find((rel) => url.endsWith(`/demos/x/${rel}`))];
+  const dir = mkdtempSync(path.join(os.tmpdir(), 'h2b-demo-'));
+  const zip = await buildDemoZip(demo, dir, fetchFrom(good));
+  assert.ok(existsSync(zip));
+  const listing = execFileSync('unzip', ['-Z1', zip], { encoding: 'utf8' });
+  assert.match(listing, /^static-site-importer-playground-demo\/a\.php$/m);
+  assert.match(listing, /^static-site-importer-playground-demo\/b\/c\.js$/m);
+  await assert.rejects(buildDemoZip(demo, dir, fetchFrom({ ...good, 'b/c.js': 'tampered' })), /sha256 mismatch/);
 });
