@@ -1,0 +1,1953 @@
+{
+  "dry_run": false,
+  "tool": "block-runner",
+  "tool_pin": {
+    "name": "Block Runner",
+    "version": "1.0.0",
+    "commit": "a50f986093b026c8579f77c584b7e0a61ae99084",
+    "npm": "block-runner@1.0.0",
+    "npm_integrity": "sha512-xz8SlBp1jvo0MMaocKd5tDS/dqyYbmxdqwdFiQEv1UyV9KEhUOiZ6XjbOvfst4JGS5UZwhjf3kogAGcnQ3Iacg==",
+    "node_engines": "^22.23.4 || ^24.22.1 || >=26.12.1",
+    "node": "24.22.1",
+    "node_runner": "npx -y node@24.22.1 harness/run.mjs block-runner (the machine's global Node is not changed)",
+    "source": "https://github.com/humanmade/block-runner"
+  },
+  "page": "about",
+  "run_date": "2026-10-28T18:06:32.730Z",
+  "versions": {
+    "php": "8.3",
+    "wp": "7.1.4",
+    "theme": "twentytwentyfive 1.5",
+    "playground_cli": "3.1.61",
+    "playwright": "1.57.0",
+    "node": "v24.22.1",
+    "harness_commit": "e03f66242ef062db9b4a5b69211b732bc117624c",
+    "harness_dirty": false,
+    "rubric_commit": "0e06bffc80fb85e63937557802eba909d62c4849"
+  },
+  "input": {
+    "file": ".harness-tmp/block-runner/input/about.html",
+    "sha256": "8fa510ecb82aa03685a836345521bfa5ad9e21b2346cd2a348d6a93ce11b591a"
+  },
+  "timings": {
+    "prepare_ms": 29137,
+    "boot_and_blueprint_ms": 18650
+  },
+  "wordpress_page": {
+    "id": 5,
+    "url": "http://127.0.0.1:9400/about/",
+    "stored_content": "<!-- wp:group {\"tagName\":\"header\"} -->\n<header class=\"wp-block-group\"><!-- wp:html -->\n<a class=\"brand\" href=\"http://127.0.0.1:9400/sample-site/index.html\">\n        <img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works\n      </a>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<button class=\"nav-toggle\" type=\"button\" aria-controls=\"site-nav\" aria-expanded=\"false\">Menu</button>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main\">\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/index.html\">Home</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\" aria-current=\"page\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n        </ul>\n      </nav>\n<!-- /wp:html --></header>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"main\"} -->\n<main class=\"wp-block-group\"><!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading {\"level\":1} -->\n<h1 class=\"wp-block-heading\">About the workshop</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">How a repair goes</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol class=\"wp-block-list\"><!-- wp:list-item -->\n<li>You bring the bike in, or book a slot on the <a href=\"http://127.0.0.1:9400/sample-site/contact.html\">contact page</a>.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We look it over with you and write down a price before any work starts.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We do the work, test ride it, and text you when it is ready.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>You collect it and we show you what we changed.</li>\n<!-- /wp:list-item --></ol>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What we believe</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Fix before replace</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4 class=\"wp-block-heading\">What we will always tell you</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>What is worn, and how long it has left.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What is safe to leave for now.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What it costs, before we start.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Every bike leaves road-tested</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>No bike goes back to its rider until one of us has ridden it round the block.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><!-- wp:paragraph -->\n<p>A bike that is looked after lasts for decades. Most of the work is small and regular.</p>\n<!-- /wp:paragraph --><cite>The workshop's house rule</cite></blockquote>\n<!-- /wp:quote --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">From the bench</h2>\n<!-- /wp:heading -->\n\n<!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg\" alt=\"Drawing of a roadster bicycle\"/><figcaption class=\"wp-element-caption\">A roadster rebuild: new bearings and a fresh chain.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg\" alt=\"Drawing of a commuter bicycle\"/><figcaption class=\"wp-element-caption\">A commuter tune-up, back the same afternoon.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg\" alt=\"Drawing of a cargo bicycle\"/><figcaption class=\"wp-element-caption\">Cargo bike service, on the long stand.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg\" alt=\"Drawing of a bicycle on a truing stand\"/><figcaption class=\"wp-element-caption\">Wheel truing, to half a millimetre.</figcaption></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">A short film we like</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:html -->\n<div class=\"embed\">\n          <iframe src=\"https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ\" title=\"Big Buck Bunny, Blender Foundation\" loading=\"lazy\" allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n        </div>\n<!-- /wp:html --></section>\n<!-- /wp:group --></main>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"footer\"} -->\n<footer class=\"wp-block-group\"><!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Quillfern Cycle Works</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>14 Ferrule Lane, Larkbend</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Pages</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>Quillfern Cycle Works is a fictional business, made for a software test.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>© <span class=\"year\">2026</span> Sample site, MIT licence.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></footer>\n<!-- /wp:group -->"
+  },
+  "original": {
+    "390": {
+      "status": 200,
+      "screenshot": "original-about-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/about.html",
+        "title": "About | Quillfern Cycle Works",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "About the workshop",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "How a repair goes",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "What we believe",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Fix before replace",
+            "id": null
+          },
+          {
+            "level": 4,
+            "text": "What we will always tell you",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Every bike leaves road-tested",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "From the bench",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "A short film we like",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Menu About the workshop Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day. How a repair goes You bring the bike in, or book a slot on the contact page. We look it over with you and write down a price before any work starts. We do the work, test ride it, and text you when it is ready. You collect it and we show you what we changed. What we believe Fix before replace A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead. What we will always tell you What is worn, and how long it has left. What is safe to leave for now. What it costs, before we start. Every bike leaves road-tested No bike goes back to its rider until one of us has ridden it round the block. A bike that is looked after lasts for decades. Most of the work is small and regular. The workshop's house rule From the bench A roadster rebuild: new bearings and a fresh chain. A commuter tune-up, back the same afternoon. Cargo bike service, on the long stand. Wheel truing, to half a millimetre. A short film we like Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share. Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "You bring the bike in, or book a slot on the contact page.",
+              "We look it over with you and write down a price before any work starts.",
+              "We do the work, test ride it, and text you when it is ready.",
+              "You collect it and we show you what we changed."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "What is worn, and how long it has left.",
+              "What is safe to leave for now.",
+              "What it costs, before we start."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "contact page",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg",
+            "alt": "Drawing of a roadster bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg",
+            "alt": "Drawing of a commuter bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg",
+            "alt": "Drawing of a cargo bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg",
+            "alt": "Drawing of a bicycle on a truing stand",
+            "natural_width": 225,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "A roadster rebuild: new bearings and a fresh chain.",
+          "A commuter tune-up, back the same afternoon.",
+          "Cargo bike service, on the long stand.",
+          "Wheel truing, to half a millimetre."
+        ],
+        "background_images": [],
+        "iframes": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
+            "width": 350,
+            "height": 196.875
+          }
+        ],
+        "svgs": [],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "About the workshop",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "How a repair goes",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "What we believe",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Fix before replace",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "What we will always tell you",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Every bike leaves road-tested",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "From the bench",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "A short film we like",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": null
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "original-about-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/about.html",
+        "title": "About | Quillfern Cycle Works",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "About the workshop",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "How a repair goes",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "What we believe",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Fix before replace",
+            "id": null
+          },
+          {
+            "level": 4,
+            "text": "What we will always tell you",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Every bike leaves road-tested",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "From the bench",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "A short film we like",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Home About Services Contact About the workshop Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day. How a repair goes You bring the bike in, or book a slot on the contact page. We look it over with you and write down a price before any work starts. We do the work, test ride it, and text you when it is ready. You collect it and we show you what we changed. What we believe Fix before replace A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead. What we will always tell you What is worn, and how long it has left. What is safe to leave for now. What it costs, before we start. Every bike leaves road-tested No bike goes back to its rider until one of us has ridden it round the block. A bike that is looked after lasts for decades. Most of the work is small and regular. The workshop's house rule From the bench A roadster rebuild: new bearings and a fresh chain. A commuter tune-up, back the same afternoon. Cargo bike service, on the long stand. Wheel truing, to half a millimetre. A short film we like Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share. Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "You bring the bike in, or book a slot on the contact page.",
+              "We look it over with you and write down a price before any work starts.",
+              "We do the work, test ride it, and text you when it is ready.",
+              "You collect it and we show you what we changed."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "What is worn, and how long it has left.",
+              "What is safe to leave for now.",
+              "What it costs, before we start."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "contact page",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg",
+            "alt": "Drawing of a roadster bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg",
+            "alt": "Drawing of a commuter bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg",
+            "alt": "Drawing of a cargo bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg",
+            "alt": "Drawing of a bicycle on a truing stand",
+            "natural_width": 225,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "A roadster rebuild: new bearings and a fresh chain.",
+          "A commuter tune-up, back the same afternoon.",
+          "Cargo bike service, on the long stand.",
+          "Wheel truing, to half a millimetre."
+        ],
+        "background_images": [],
+        "iframes": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
+            "width": 1060,
+            "height": 596.25
+          }
+        ],
+        "svgs": [],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "About the workshop",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "How a repair goes",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "What we believe",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Fix before replace",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "What we will always tell you",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Every bike leaves road-tested",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "From the bench",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "A short film we like",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": null
+        }
+      }
+    }
+  },
+  "converted": {
+    "390": {
+      "status": 200,
+      "screenshot": "converted-about-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/about/",
+        "title": "About – Converter test site",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "About",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "About the workshop",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "How a repair goes",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "What we believe",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Fix before replace",
+            "id": null
+          },
+          {
+            "level": 4,
+            "text": "What we will always tell you",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Every bike leaves road-tested",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "From the bench",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "A short film we like",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site About Quillfern Cycle Works Menu Home About Services Contact About the workshop Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day. How a repair goes You bring the bike in, or book a slot on the contact page. We look it over with you and write down a price before any work starts. We do the work, test ride it, and text you when it is ready. You collect it and we show you what we changed. What we believe Fix before replace A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead. What we will always tell you What is worn, and how long it has left. What is safe to leave for now. What it costs, before we start. Every bike leaves road-tested No bike goes back to its rider until one of us has ridden it round the block. A bike that is looked after lasts for decades. Most of the work is small and regular. The workshop’s house rule From the bench A roadster rebuild: new bearings and a fresh chain. A commuter tune-up, back the same afternoon. Cargo bike service, on the long stand. Wheel truing, to half a millimetre. A short film we like Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share. Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "You bring the bike in, or book a slot on the contact page.",
+              "We look it over with you and write down a price before any work starts.",
+              "We do the work, test ride it, and text you when it is ready.",
+              "You collect it and we show you what we changed."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "What is worn, and how long it has left.",
+              "What is safe to leave for now.",
+              "What it costs, before we start."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/about/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "contact page",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg",
+            "alt": "Drawing of a roadster bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg",
+            "alt": "Drawing of a commuter bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg",
+            "alt": "Drawing of a cargo bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg",
+            "alt": "Drawing of a bicycle on a truing stand",
+            "natural_width": 225,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "A roadster rebuild: new bearings and a fresh chain.",
+          "A commuter tune-up, back the same afternoon.",
+          "Cargo bike service, on the long stand.",
+          "Wheel truing, to half a millimetre."
+        ],
+        "background_images": [],
+        "iframes": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
+            "width": 304,
+            "height": 154
+          }
+        ],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": true
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          }
+        ],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": null,
+          "site_script_marker": null,
+          "script_tags": 6
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "About",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "About the workshop",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "How a repair goes",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "What we believe",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Fix before replace",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "What we will always tell you",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Every bike leaves road-tested",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "From the bench",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "A short film we like",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": null
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "converted-about-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/about/",
+        "title": "About – Converter test site",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "About",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "About the workshop",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "How a repair goes",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "What we believe",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Fix before replace",
+            "id": null
+          },
+          {
+            "level": 4,
+            "text": "What we will always tell you",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Every bike leaves road-tested",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "From the bench",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "A short film we like",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site About Contact Home Sample Page Services About Quillfern Cycle Works Menu Home About Services Contact About the workshop Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day. How a repair goes You bring the bike in, or book a slot on the contact page. We look it over with you and write down a price before any work starts. We do the work, test ride it, and text you when it is ready. You collect it and we show you what we changed. What we believe Fix before replace A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead. What we will always tell you What is worn, and how long it has left. What is safe to leave for now. What it costs, before we start. Every bike leaves road-tested No bike goes back to its rider until one of us has ridden it round the block. A bike that is looked after lasts for decades. Most of the work is small and regular. The workshop’s house rule From the bench A roadster rebuild: new bearings and a fresh chain. A commuter tune-up, back the same afternoon. Cargo bike service, on the long stand. Wheel truing, to half a millimetre. A short film we like Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share. Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "You bring the bike in, or book a slot on the contact page.",
+              "We look it over with you and write down a price before any work starts.",
+              "We do the work, test ride it, and text you when it is ready.",
+              "You collect it and we show you what we changed."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "What is worn, and how long it has left.",
+              "What is safe to leave for now.",
+              "What it costs, before we start."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/about/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "contact page",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/about/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg",
+            "alt": "Drawing of a roadster bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg",
+            "alt": "Drawing of a commuter bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg",
+            "alt": "Drawing of a cargo bicycle",
+            "natural_width": 225,
+            "visible": true
+          },
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg",
+            "alt": "Drawing of a bicycle on a truing stand",
+            "natural_width": 225,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "A roadster rebuild: new bearings and a fresh chain.",
+          "A commuter tune-up, back the same afternoon.",
+          "Cargo bike service, on the long stand.",
+          "Wheel truing, to half a millimetre."
+        ],
+        "background_images": [],
+        "iframes": [
+          {
+            "src": "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
+            "width": 304,
+            "height": 154
+          }
+        ],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          }
+        ],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": null,
+          "site_script_marker": null,
+          "script_tags": 6
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "About",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "About the workshop",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "How a repair goes",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "What we believe",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Fix before replace",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "What we will always tell you",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Every bike leaves road-tested",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "From the bench",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "A short film we like",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": null
+        }
+      }
+    }
+  },
+  "editor": {
+    "screenshot": "converted-about-editor.png",
+    "list_view_screenshot": "converted-about-listview.png",
+    "welcome_guide_visible": false,
+    "console_validation_messages": [],
+    "post_content": "<!-- wp:group {\"tagName\":\"header\"} -->\n<header class=\"wp-block-group\"><!-- wp:html -->\n<a class=\"brand\" href=\"http://127.0.0.1:9400/sample-site/index.html\">\n        <img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works\n      </a>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<button class=\"nav-toggle\" type=\"button\" aria-controls=\"site-nav\" aria-expanded=\"false\">Menu</button>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main\">\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/index.html\">Home</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\" aria-current=\"page\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n        </ul>\n      </nav>\n<!-- /wp:html --></header>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"main\"} -->\n<main class=\"wp-block-group\"><!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading {\"level\":1} -->\n<h1 class=\"wp-block-heading\">About the workshop</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">How a repair goes</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol class=\"wp-block-list\"><!-- wp:list-item -->\n<li>You bring the bike in, or book a slot on the <a href=\"http://127.0.0.1:9400/sample-site/contact.html\">contact page</a>.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We look it over with you and write down a price before any work starts.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We do the work, test ride it, and text you when it is ready.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>You collect it and we show you what we changed.</li>\n<!-- /wp:list-item --></ol>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What we believe</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Fix before replace</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4 class=\"wp-block-heading\">What we will always tell you</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>What is worn, and how long it has left.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What is safe to leave for now.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What it costs, before we start.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Every bike leaves road-tested</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>No bike goes back to its rider until one of us has ridden it round the block.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><!-- wp:paragraph -->\n<p>A bike that is looked after lasts for decades. Most of the work is small and regular.</p>\n<!-- /wp:paragraph --><cite>The workshop's house rule</cite></blockquote>\n<!-- /wp:quote --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">From the bench</h2>\n<!-- /wp:heading -->\n\n<!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg\" alt=\"Drawing of a roadster bicycle\"/><figcaption class=\"wp-element-caption\">A roadster rebuild: new bearings and a fresh chain.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg\" alt=\"Drawing of a commuter bicycle\"/><figcaption class=\"wp-element-caption\">A commuter tune-up, back the same afternoon.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg\" alt=\"Drawing of a cargo bicycle\"/><figcaption class=\"wp-element-caption\">Cargo bike service, on the long stand.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg\" alt=\"Drawing of a bicycle on a truing stand\"/><figcaption class=\"wp-element-caption\">Wheel truing, to half a millimetre.</figcaption></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">A short film we like</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:html -->\n<div class=\"embed\">\n          <iframe src=\"https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ\" title=\"Big Buck Bunny, Blender Foundation\" loading=\"lazy\" allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n        </div>\n<!-- /wp:html --></section>\n<!-- /wp:group --></main>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"footer\"} -->\n<footer class=\"wp-block-group\"><!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Quillfern Cycle Works</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>14 Ferrule Lane, Larkbend</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Pages</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>Quillfern Cycle Works is a fictional business, made for a software test.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>© <span class=\"year\">2026</span> Sample site, MIT licence.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></footer>\n<!-- /wp:group -->",
+    "blocks": [
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 54
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 1221
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/quote",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/image",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/image",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/image",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/image",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 182
+      },
+      {
+        "name": "core/columns",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/column",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/column",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/column",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      }
+    ],
+    "block_counts": {
+      "core/group": 7,
+      "core/html": 4,
+      "core/heading": 10,
+      "core/paragraph": 8,
+      "core/list": 3,
+      "core/list-item": 10,
+      "core/quote": 1,
+      "core/image": 4,
+      "core/columns": 1,
+      "core/column": 3
+    },
+    "invalid_blocks": 0,
+    "recovery_notices": 0
+  },
+  "after_boot": null,
+  "checks": null,
+  "scores": null
+}

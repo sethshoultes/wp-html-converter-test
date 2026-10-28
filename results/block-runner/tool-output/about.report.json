@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "command": "convert",
+  "summary": {
+    "blocks": 51,
+    "valid": 51,
+    "invalid": 0,
+    "warnings": 9
+  },
+  "items": [
+    {
+      "block": "input",
+      "status": "warning",
+      "reason": "<script> stripped from input",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "body > script",
+        "htmlLine": 109,
+        "htmlColumn": 3,
+        "offset": 4800
+      }
+    },
+    {
+      "block": "core/html",
+      "status": "warning",
+      "reason": "unmapped element — no native block, preserved as Custom HTML fallback",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "body > header.site-header > div.wrap > a.brand",
+        "htmlLine": 4,
+        "htmlColumn": 7,
+        "offset": 61
+      },
+      "rule": "html"
+    },
+    {
+      "block": "core/html",
+      "status": "warning",
+      "reason": "unmapped element — no native block, preserved as Custom HTML fallback",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "body > header.site-header > div.wrap > button.nav-toggle",
+        "htmlLine": 8,
+        "htmlColumn": 7,
+        "offset": 282
+      },
+      "rule": "html"
+    },
+    {
+      "block": "core/html",
+      "status": "warning",
+      "reason": "unmapped element — no native block, preserved as Custom HTML fallback",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "body > header.site-header > div.wrap > nav#site-nav.site-nav",
+        "htmlLine": 9,
+        "htmlColumn": 7,
+        "offset": 390
+      },
+      "rule": "html"
+    },
+    {
+      "block": "core/html",
+      "status": "warning",
+      "reason": "unmapped element — no native block, preserved as Custom HTML fallback",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "main > section > div.wrap > div.embed",
+        "htmlLine": 81,
+        "htmlColumn": 9,
+        "offset": 3771
+      },
+      "rule": "html"
+    },
+    {
+      "block": "core/image",
+      "status": "warning",
+      "reason": "noop resolver does not resolve media IDs",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "div.wrap > div.gallery > figure > img",
+        "htmlLine": 58,
+        "htmlColumn": 13,
+        "offset": 2449
+      },
+      "details": {
+        "resolver": "noop",
+        "strict": false
+      }
+    },
+    {
+      "block": "core/image",
+      "status": "warning",
+      "reason": "noop resolver does not resolve media IDs",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "div.wrap > div.gallery > figure > img",
+        "htmlLine": 62,
+        "htmlColumn": 13,
+        "offset": 2728
+      },
+      "details": {
+        "resolver": "noop",
+        "strict": false
+      }
+    },
+    {
+      "block": "core/image",
+      "status": "warning",
+      "reason": "noop resolver does not resolve media IDs",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "div.wrap > div.gallery > figure > img",
+        "htmlLine": 66,
+        "htmlColumn": 13,
+        "offset": 3000
+      },
+      "details": {
+        "resolver": "noop",
+        "strict": false
+      }
+    },
+    {
+      "block": "core/image",
+      "status": "warning",
+      "reason": "noop resolver does not resolve media IDs",
+      "source": {
+        "path": "<repo>/.harness-tmp/block-runner/input/about.html",
+        "selector": "div.wrap > div.gallery > figure > img",
+        "htmlLine": 70,
+        "htmlColumn": 13,
+        "offset": 3260
+      },
+      "details": {
+        "resolver": "noop",
+        "strict": false
+      }
+    }
+  ],
+  "output": "<!-- wp:group {\"tagName\":\"header\"} -->\n<header class=\"wp-block-group\"><!-- wp:html -->\n<a class=\"brand\" href=\"http://127.0.0.1:9400/sample-site/index.html\">\n        <img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works\n      </a>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<button class=\"nav-toggle\" type=\"button\" aria-controls=\"site-nav\" aria-expanded=\"false\">Menu</button>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main\">\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/index.html\">Home</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\" aria-current=\"page\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n        </ul>\n      </nav>\n<!-- /wp:html --></header>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"main\"} -->\n<main class=\"wp-block-group\"><!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading {\"level\":1} -->\n<h1 class=\"wp-block-heading\">About the workshop</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">How a repair goes</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol class=\"wp-block-list\"><!-- wp:list-item -->\n<li>You bring the bike in, or book a slot on the <a href=\"http://127.0.0.1:9400/sample-site/contact.html\">contact page</a>.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We look it over with you and write down a price before any work starts.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>We do the work, test ride it, and text you when it is ready.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>You collect it and we show you what we changed.</li>\n<!-- /wp:list-item --></ol>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What we believe</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Fix before replace</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4 class=\"wp-block-heading\">What we will always tell you</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>What is worn, and how long it has left.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What is safe to leave for now.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>What it costs, before we start.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Every bike leaves road-tested</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>No bike goes back to its rider until one of us has ridden it round the block.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><!-- wp:paragraph -->\n<p>A bike that is looked after lasts for decades. Most of the work is small and regular.</p>\n<!-- /wp:paragraph --><cite>The workshop's house rule</cite></blockquote>\n<!-- /wp:quote --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">From the bench</h2>\n<!-- /wp:heading -->\n\n<!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-roadster.svg\" alt=\"Drawing of a roadster bicycle\"/><figcaption class=\"wp-element-caption\">A roadster rebuild: new bearings and a fresh chain.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-commuter.svg\" alt=\"Drawing of a commuter bicycle\"/><figcaption class=\"wp-element-caption\">A commuter tune-up, back the same afternoon.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-cargo.svg\" alt=\"Drawing of a cargo bicycle\"/><figcaption class=\"wp-element-caption\">Cargo bike service, on the long stand.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:image -->\n<figure class=\"wp-block-image\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/gallery-wheels.svg\" alt=\"Drawing of a bicycle on a truing stand\"/><figcaption class=\"wp-element-caption\">Wheel truing, to half a millimetre.</figcaption></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group --></section>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"section\"} -->\n<section class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">A short film we like</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:html -->\n<div class=\"embed\">\n          <iframe src=\"https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ\" title=\"Big Buck Bunny, Blender Foundation\" loading=\"lazy\" allow=\"accelerometer; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n        </div>\n<!-- /wp:html --></section>\n<!-- /wp:group --></main>\n<!-- /wp:group -->\n\n<!-- wp:group {\"tagName\":\"footer\"} -->\n<footer class=\"wp-block-group\"><!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Quillfern Cycle Works</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>14 Ferrule Lane, Larkbend</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Pages</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>Quillfern Cycle Works is a fictional business, made for a software test.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>© <span class=\"year\">2026</span> Sample site, MIT licence.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></footer>\n<!-- /wp:group -->",
+  "hint": "4 blocks fell back to Custom HTML — describing the structure as an intent tree usually converts cleanly: npx block-runner skill"
+}

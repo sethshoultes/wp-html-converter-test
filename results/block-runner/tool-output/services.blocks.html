@@ -1,0 +1,196 @@
+<!-- wp:group {"tagName":"header"} -->
+<header class="wp-block-group"><!-- wp:html -->
+<a class="brand" href="http://127.0.0.1:9400/sample-site/index.html">
+        <img src="http://127.0.0.1:9400/sample-site/assets/img/logo.svg" alt="" width="40" height="40">
+        Quillfern Cycle Works
+      </a>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="http://127.0.0.1:9400/sample-site/index.html">Home</a></li>
+          <li><a href="http://127.0.0.1:9400/sample-site/about.html">About</a></li>
+          <li><a href="http://127.0.0.1:9400/sample-site/services.html" aria-current="page">Services</a></li>
+          <li><a href="http://127.0.0.1:9400/sample-site/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+<!-- /wp:html --></header>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main"} -->
+<main class="wp-block-group"><!-- wp:group {"tagName":"section"} -->
+<section class="wp-block-group"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Services and prices</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"anchor":"tune-ups"} -->
+<h2 id="tune-ups" class="wp-block-heading">Tune-up levels</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th scope="col">Service</th><th scope="col">What is included</th><th scope="col">Time</th><th scope="col">Price</th></tr></thead><tbody><tr><th scope="row">Safety check</th><td>Brakes, tyres, bolts, chain wear</td><td>20 min</td><td>15</td></tr><tr><th scope="row">Standard tune-up</th><td>Safety check, gears indexed, brakes adjusted, chain cleaned</td><td>1 hour</td><td>45</td></tr><tr><th scope="row">Full service</th><td>Standard tune-up, bearings serviced, wheels trued, cables replaced</td><td>Next morning</td><td>110</td></tr></tbody></table><figcaption class="wp-element-caption">Labour prices, in made-up sample currency.</figcaption></figure>
+<!-- /wp:table --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section"} -->
+<section class="wp-block-group"><!-- wp:heading {"anchor":"wheels"} -->
+<h2 id="wheels" class="wp-block-heading">Wheels and cargo bikes</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Wheel truing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A wobbly wheel trued on the stand, with spoke tension evened out.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Up to 3 spokes replaced</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Same-day for most wheels</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Hand-built wheels</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Built to your rims and hubs, tensioned and stress-relieved.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Ready in five working days</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Free re-true after a month</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Cargo bike care</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Longtails and front-loaders on our long stand, including steering and child-seat checks.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Booked slots only</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Collection by arrangement</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section"} -->
+<section class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading">Check your chain at home</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>// Chain wear, measured with a checker gauge.
+function chainAdvice(wearPercent) {
+  if (wearPercent >= 0.75) {
+    return 'Replace the chain, and check the cassette.';
+  }
+  if (wearPercent >= 0.5) {
+    return 'Replace the chain soon.';
+  }
+  return 'The chain is fine.';
+}</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Shift to the smallest rear cog.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Drop the checker into the chain.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Read the gauge, then run the rule above.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><a class="button" href="http://127.0.0.1:9400/sample-site/contact.html">Book a service</a></p>
+<!-- /wp:paragraph --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"footer"} -->
+<footer class="wp-block-group"><!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
+<h2 class="wp-block-heading">Quillfern Cycle Works</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>14 Ferrule Lane, Larkbend</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading -->
+<h2 class="wp-block-heading">Pages</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="http://127.0.0.1:9400/sample-site/about.html">About</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="http://127.0.0.1:9400/sample-site/services.html">Services</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="http://127.0.0.1:9400/sample-site/contact.html">Contact</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>Quillfern Cycle Works is a fictional business, made for a software test.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>© <span class="year">2026</span> Sample site, MIT licence.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></footer>
+<!-- /wp:group -->
