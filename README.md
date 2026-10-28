@@ -75,7 +75,17 @@ npx @wp-playground/cli@3.1.61 server --php=8.3 --wp=7.1.4 --blueprint=harness/bl
 ## Status
 
 Phase 1: tools confirmed, sample site built, rubric fixed, harness proved by a
-dry run. No scored run has happened yet.
+dry run. No scored run has happened yet, and no converter has been run on the
+sample site.
+
+The dry run (2026-10-28, harness commit `6dc88dd`, `results/dry-run/`) is a
+harness check only, not a result: a fresh Playground started with PHP 8.3 and
+WordPress 7.1.4, a blueprint step created a "Hello" page from a mounted file,
+and the frontend (1280, 390), block editor and List View screenshots landed,
+along with the served copy of the original home page. The converter adapters
+in `harness/tools/` are written but have not been run.
+
+Unit checks: `npm test`.
 
 ## Licence
 
