@@ -28,10 +28,16 @@ The test takes each tool as it is published and feeds it the input it is
 built to take, with no hand repair afterwards.
 
 - **Page-content converters** (a, c, d, e) take HTML markup, not a site. Each
-  gets the inner HTML of each page's `<body>`, exactly as the file holds it,
-  including the shared nav, footer and inline `<script>`. They are not given the
-  stylesheet, because none of them takes one. The converted markup becomes the
-  content of one WordPress page per source page, under the pinned default theme.
+  gets the inner HTML of each page's `<body>`, including the shared nav, footer
+  and inline `<script>`, with one mechanical change: every relative `src` and
+  `href` is resolved to an absolute URL against the page's address in the
+  served copy of the sample site (`/sample-site/` on the same Playground). That
+  is what a browser gives when you copy from a live page, and without it every
+  image path would break for reasons that have nothing to do with the tool.
+  Nothing else is changed (`harness/lib/input.mjs` is the whole rule). They are
+  not given the stylesheet, because none of them takes one. The converted markup
+  becomes the content of one WordPress page per source page, under the pinned
+  default theme.
 - **The site importer** (b) takes a whole static site. It gets `sample-site/`
   as one ZIP, which is the intake its README names.
 

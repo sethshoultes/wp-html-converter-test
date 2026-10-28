@@ -25,8 +25,8 @@ The "Rubric row" column says which RUBRIC.md criterion it feeds.
 | Inline SVG | home (wrench icon), contact (map) | `<svg>` with `<title>` in the markup | no core block holds inline SVG, so it is dropped or put in an HTML block | embeds |
 | Contact form | contact | `<form>` with text, email, select, textarea, checkbox and submit | core WordPress has no form block | forms |
 | YouTube embed | about | `<iframe src="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ">` in a 16:9 wrapper | iframes are stripped or not turned into an Embed block | embeds |
-| Inline `<script>` | all 4 pages (year in footer); home (open-now line); contact (form handler) | `<script>` at the end of `<body>` | scripts are stripped from post content by design in many tools and by WordPress for non-admin users | scripts |
-| External script | all 4 pages | `<script src="assets/js/site.js" defer>` in `<head>` | lives in the head, outside the body most tools read | scripts |
+| Inline `<script>` | all 4 pages (year in footer, and `body[data-inline-script="ran"]` so the test can see it ran); home (open-now line); contact (form handler) | `<script>` at the end of `<body>` | scripts are stripped from post content by design in many tools and by WordPress for non-admin users | scripts |
+| External script | all 4 pages | `<script src="assets/js/site.js" defer>` in `<head>`; sets `body[data-site-script="ran"]` | lives in the head, outside the body most tools read | scripts |
 | CSS custom-property theme | `assets/css/site.css` | every colour and font comes from `--qf-*` variables on `:root` | the theme must be carried into `theme.json` or a stylesheet, or it is lost | typography and colours |
 | Web font | `assets/css/site.css` | self-hosted Arvo via `@font-face` (`assets/fonts/`) | font files must be copied and registered; otherwise the theme font shows | typography and colours |
 | Blockquote with citation | home, about | `<blockquote><p>...</p><cite>...</cite></blockquote>` | the `cite` is dropped or merged into the quote | structure and headings |

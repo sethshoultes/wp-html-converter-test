@@ -118,6 +118,8 @@
   </footer>
 
   <script>
+    // Marks the page so the test can see this inline script ran.
+    document.body.dataset.inlineScript = 'ran';
     // Inline script: fill in the year.
     document.querySelectorAll('.year').forEach((el) => {
       el.textContent = String(new Date().getFullYear());
