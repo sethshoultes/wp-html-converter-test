@@ -28,3 +28,5 @@ pinned commit) is different: a browser importer block from a separate demo
 plugin, PHP 8.5. TOOLS.md chose the CLI route, so that route was not tried.
 
 These CLI attempts produced no evidence and are not used for scoring.
+
+Correction, 2026-10-28 (phase 3 scorer): the line above saying the publisher's Playground route "was not tried" is out of date. After these two CLI attempts, on the operator's decision, the tool ran once by that route under PHP 8.5 (harness commit 6c8b3a7); that run completed and is the scored evidence in results/static-site-importer/. The original line is kept as it was written.
