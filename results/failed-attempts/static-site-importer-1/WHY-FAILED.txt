@@ -1,4 +1,4 @@
-static-site-importer, attempts 1 and 2 (2026-10-28, harness commit 67f704b). Not run: open question for the operator.
+static-site-importer, attempts 1 and 2 (2026-10-28, harness commit 67f704b). CLI route failed. Resolved: on the operator's decision the tool ran by its publisher's Playground route under PHP 8.5 (harness commit 6c8b3a7, evidence in results/static-site-importer/).
 
 Both attempts: `node harness/run.mjs static-site-importer`, each on a fresh
 Playground. Playground exited with code 1 before it was ready:
@@ -27,4 +27,4 @@ The publisher's own Playground route (docs/playground/blueprint.json at the
 pinned commit) is different: a browser importer block from a separate demo
 plugin, PHP 8.5. TOOLS.md chose the CLI route, so that route was not tried.
 
-No results/static-site-importer/ evidence exists. No cell has been scored.
+These CLI attempts produced no evidence and are not used for scoring.
