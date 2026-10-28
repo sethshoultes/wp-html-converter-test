@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Quillfern Cycle Works</title>
+  <meta name="description" content="About Quillfern Cycle Works, a fictional bicycle repair shop.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        Quillfern Cycle Works
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <h1>About the workshop</h1>
+        <p>Quillfern Cycle Works is two benches, one truing stand and a long wall of parts drawers. We fix the bikes people ride every day.</p>
+
+        <h2>How a repair goes</h2>
+        <ol>
+          <li>You bring the bike in, or book a slot on the <a href="contact.html">contact page</a>.</li>
+          <li>We look it over with you and write down a price before any work starts.</li>
+          <li>We do the work, test ride it, and text you when it is ready.</li>
+          <li>You collect it and we show you what we changed.</li>
+        </ol>
+
+        <h2>What we believe</h2>
+        <h3>Fix before replace</h3>
+        <p>A worn part gets replaced. A part that can be cleaned, adjusted or trued gets that instead.</p>
+        <h4>What we will always tell you</h4>
+        <ul>
+          <li>What is worn, and how long it has left.</li>
+          <li>What is safe to leave for now.</li>
+          <li>What it costs, before we start.</li>
+        </ul>
+        <h3>Every bike leaves road-tested</h3>
+        <p>No bike goes back to its rider until one of us has ridden it round the block.</p>
+
+        <blockquote>
+          <p>A bike that is looked after lasts for decades. Most of the work is small and regular.</p>
+          <cite>The workshop's house rule</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>From the bench</h2>
+        <div class="gallery">
+          <figure>
+            <img src="assets/img/gallery-roadster.svg" alt="Drawing of a roadster bicycle" width="600" height="400">
+            <figcaption>A roadster rebuild: new bearings and a fresh chain.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/gallery-commuter.svg" alt="Drawing of a commuter bicycle" width="600" height="400">
+            <figcaption>A commuter tune-up, back the same afternoon.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/gallery-cargo.svg" alt="Drawing of a cargo bicycle" width="600" height="400">
+            <figcaption>Cargo bike service, on the long stand.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/gallery-wheels.svg" alt="Drawing of a bicycle on a truing stand" width="600" height="400">
+            <figcaption>Wheel truing, to half a millimetre.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>A short film we like</h2>
+        <p>Big Buck Bunny, an open film from the Blender Foundation (CC BY 3.0). It has nothing to do with bikes, but it is free to share.</p>
+        <div class="embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ" title="Big Buck Bunny, Blender Foundation" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-cols">
+      <div>
+        <h2>Quillfern Cycle Works</h2>
+        <p>14 Ferrule Lane, Larkbend</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>
+        <p>&copy; <span class="year">2026</span> Sample site, MIT licence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inline script: fill in the year.
+    document.querySelectorAll('.year').forEach((el) => {
+      el.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services and prices | Quillfern Cycle Works</title>
+  <meta name="description" content="Services and prices at Quillfern Cycle Works, a fictional bicycle repair shop.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        Quillfern Cycle Works
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" aria-current="page">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <h1>Services and prices</h1>
+        <p>Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site.</p>
+
+        <h2 id="tune-ups">Tune-up levels</h2>
+        <table>
+          <caption>Labour prices, in made-up sample currency.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">What is included</th>
+              <th scope="col">Time</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Safety check</th>
+              <td>Brakes, tyres, bolts, chain wear</td>
+              <td>20 min</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <th scope="row">Standard tune-up</th>
+              <td>Safety check, gears indexed, brakes adjusted, chain cleaned</td>
+              <td>1 hour</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <th scope="row">Full service</th>
+              <td>Standard tune-up, bearings serviced, wheels trued, cables replaced</td>
+              <td>Next morning</td>
+              <td>110</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 id="wheels">Wheels and cargo bikes</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Wheel truing</h3>
+            <p>A wobbly wheel trued on the stand, with spoke tension evened out.</p>
+            <ul>
+              <li>Up to 3 spokes replaced</li>
+              <li>Same-day for most wheels</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Hand-built wheels</h3>
+            <p>Built to your rims and hubs, tensioned and stress-relieved.</p>
+            <ul>
+              <li>Ready in five working days</li>
+              <li>Free re-true after a month</li>
+            </ul>
+          </article>
+          <article class="card" id="cargo">
+            <h3>Cargo bike care</h3>
+            <p>Longtails and front-loaders on our long stand, including steering and child-seat checks.</p>
+            <ul>
+              <li>Booked slots only</li>
+              <li>Collection by arrangement</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Check your chain at home</h2>
+        <p>Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code:</p>
+<pre><code class="language-js">// Chain wear, measured with a checker gauge.
+function chainAdvice(wearPercent) {
+  if (wearPercent &gt;= 0.75) {
+    return 'Replace the chain, and check the cassette.';
+  }
+  if (wearPercent &gt;= 0.5) {
+    return 'Replace the chain soon.';
+  }
+  return 'The chain is fine.';
+}</code></pre>
+        <ol>
+          <li>Shift to the smallest rear cog.</li>
+          <li>Drop the checker into the chain.</li>
+          <li>Read the gauge, then run the rule above.</li>
+        </ol>
+        <p><a class="button" href="contact.html">Book a service</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-cols">
+      <div>
+        <h2>Quillfern Cycle Works</h2>
+        <p>14 Ferrule Lane, Larkbend</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>
+        <p>&copy; <span class="year">2026</span> Sample site, MIT licence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inline script: fill in the year.
+    document.querySelectorAll('.year').forEach((el) => {
+      el.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>

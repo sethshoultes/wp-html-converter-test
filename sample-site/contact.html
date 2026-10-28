@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Quillfern Cycle Works</title>
+  <meta name="description" content="Book a repair at Quillfern Cycle Works, a fictional bicycle repair shop.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        Quillfern Cycle Works
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <h1>Book a repair</h1>
+        <p>Tell us about the bike and when you can bring it in. We reply within one working day.</p>
+
+        <form id="booking" action="#" method="post">
+          <div>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option value="safety">Safety check</option>
+              <option value="standard" selected>Standard tune-up</option>
+              <option value="full">Full service</option>
+              <option value="wheels">Wheel work</option>
+              <option value="cargo">Cargo bike care</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">About the bike</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+          <div>
+            <label><input type="checkbox" name="text-me" value="yes"> Text me when it is ready</label>
+          </div>
+          <button class="button" type="submit">Send booking request</button>
+          <p class="status" id="form-status" aria-live="polite">This sample form does not send anything.</p>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Find the workshop</h2>
+        <svg class="map" width="320" height="200" viewBox="0 0 320 200" role="img" aria-labelledby="map-title">
+          <title id="map-title">Map showing the workshop on Ferrule Lane, next to the park</title>
+          <rect width="320" height="200" fill="#e3efe9"/>
+          <rect x="0" y="90" width="320" height="22" fill="#ffffff"/>
+          <rect x="150" y="0" width="20" height="200" fill="#ffffff"/>
+          <rect x="190" y="125" width="110" height="60" fill="#b8d8c4"/>
+          <circle cx="120" cy="80" r="10" fill="#8a3b12"/>
+          <text x="10" y="106" font-family="sans-serif" font-size="12" fill="#1a2624">Ferrule Lane</text>
+          <text x="205" y="160" font-family="sans-serif" font-size="12" fill="#1a2624">Larkbend Park</text>
+        </svg>
+        <h3>Opening hours</h3>
+        <ul>
+          <li>Tuesday to Friday: 9:00 to 17:30</li>
+          <li>Saturday: 9:00 to 16:00</li>
+          <li>Sunday and Monday: closed</li>
+        </ul>
+        <p>Phone: <a href="tel:+15555550142">555-0142</a> (a fictional number). Email: <a href="mailto:hello@quillfern.example">hello@quillfern.example</a></p>
+        <p><a class="button" href="services.html">See services and prices</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-cols">
+      <div>
+        <h2>Quillfern Cycle Works</h2>
+        <p>14 Ferrule Lane, Larkbend</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>
+        <p>&copy; <span class="year">2026</span> Sample site, MIT licence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inline script: fill in the year, and stop the sample form from posting.
+    document.querySelectorAll('.year').forEach((el) => {
+      el.textContent = String(new Date().getFullYear());
+    });
+    document.getElementById('booking').addEventListener('submit', (event) => {
+      event.preventDefault();
+      document.getElementById('form-status').textContent = 'Thanks. This is a sample form, so nothing was sent.';
+    });
+  </script>
+</body>
+</html>

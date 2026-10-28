@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quillfern Cycle Works | Bicycle repair in Larkbend</title>
+  <meta name="description" content="Quillfern Cycle Works is a fictional bicycle repair shop, made for an HTML-to-WordPress converter test.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.svg" alt="" width="40" height="40">
+        Quillfern Cycle Works
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Your bike, running like the day you got it</h1>
+        <p>A small repair workshop in Larkbend. Tune-ups, wheel builds and cargo bike care, done while you wait or by the next morning.</p>
+        <a class="button" href="contact.html">Book a repair</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>What we do</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Tune-ups</h3>
+            <p>Gears indexed, brakes set, chain cleaned and every bolt checked to torque.</p>
+            <a href="services.html#tune-ups">See tune-up levels</a>
+          </article>
+          <article class="card">
+            <h3>Wheels</h3>
+            <p>Truing, spoke replacement and hand-built wheels for road, gravel and town bikes.</p>
+            <a href="services.html#wheels">See wheel work</a>
+          </article>
+          <article class="card">
+            <h3>Cargo bikes</h3>
+            <p>Longtails and front-loaders, with the space and the stands to work on them properly.</p>
+            <a href="services.html#cargo">See cargo care</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Open today</h2>
+        <p class="open-row">
+          <svg class="icon-wrench" width="48" height="48" viewBox="0 0 48 48" role="img" aria-labelledby="wrench-title">
+            <title id="wrench-title">Wrench icon</title>
+            <circle cx="24" cy="24" r="22" fill="#e9a64b"/>
+            <path d="M30 10a8 8 0 0 0-7.6 10.4L11 31.8 16.2 37l11.4-11.4A8 8 0 0 0 38 18l-5 2-4-4 2-5z" fill="#1f4e5f"/>
+          </svg>
+          <span id="open-status">The workshop is open Tuesday to Saturday, 9:00 to 17:30.</span>
+        </p>
+        <blockquote>
+          <p>They had my commuter back the same afternoon, and it shifts better than it did new.</p>
+          <cite>A rider from Larkbend (a made-up quote for this test)</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-cols">
+      <div>
+        <h2>Quillfern Cycle Works</h2>
+        <p>14 Ferrule Lane, Larkbend</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>
+        <p>&copy; <span class="year">2026</span> Sample site, MIT licence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inline script: fill in the year and say whether the shop is open right now.
+    document.querySelectorAll('.year').forEach((el) => {
+      el.textContent = String(new Date().getFullYear());
+    });
+    (function () {
+      const now = new Date();
+      const day = now.getDay();
+      const hour = now.getHours() + now.getMinutes() / 60;
+      const open = day >= 2 && day <= 6 && hour >= 9 && hour < 17.5;
+      const status = document.getElementById('open-status');
+      if (status) {
+        status.textContent += open ? ' We are open right now.' : ' We are closed right now.';
+      }
+    })();
+  </script>
+</body>
+</html>
