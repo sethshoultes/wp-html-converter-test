@@ -1,0 +1,9 @@
+{
+  "route": "The publisher's own Playground route (docs/playground/blueprint.json at the pinned commit): the importer block from its separate demo plugin, a ZIP uploaded in the browser. Its CLI import cannot run in Playground (results/failed-attempts/static-site-importer-1).",
+  "php": "8.5",
+  "sample_zip_sha256": "812b6ce8c6328602e901650e7f0c763dffc94b554bd4c7ee054a30cbed730959",
+  "imported": true,
+  "error": null,
+  "final_url": "http://127.0.0.1:9400/",
+  "status_text": null
+}
