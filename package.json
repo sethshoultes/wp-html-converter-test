@@ -1,0 +1,14 @@
+{
+  "name": "wp-html-converter-test",
+  "private": true,
+  "description": "A repeatable, scored test of HTML-to-WordPress-blocks converters on one hand-coded sample site.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dry-run": "node harness/dry-run.mjs"
+  },
+  "devDependencies": {
+    "@wp-playground/cli": "3.1.61",
+    "playwright": "1.57.0"
+  }
+}
