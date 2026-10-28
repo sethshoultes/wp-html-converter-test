@@ -1,0 +1,22 @@
+{
+    "index": {
+        "id": 4,
+        "url": "http:\/\/127.0.0.1:9400\/home\/",
+        "stored_content": ""
+    },
+    "about": {
+        "id": 5,
+        "url": "http:\/\/127.0.0.1:9400\/about\/",
+        "stored_content": ""
+    },
+    "services": {
+        "id": 6,
+        "url": "http:\/\/127.0.0.1:9400\/services\/",
+        "stored_content": ""
+    },
+    "contact": {
+        "id": 7,
+        "url": "http:\/\/127.0.0.1:9400\/contact\/",
+        "stored_content": ""
+    }
+}
