@@ -301,6 +301,11 @@ button[type="submit"] {
   margin-top: 3rem;
 }
 
+.site-footer h2 {
+  color: var(--qf-paper);
+  font-size: 1.15rem;
+}
+
 .site-footer a {
   color: var(--qf-amber);
 }

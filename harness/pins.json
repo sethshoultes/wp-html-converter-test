@@ -1,0 +1,52 @@
+{
+  "platform": {
+    "php": "8.3",
+    "wp": "7.1.4",
+    "theme": "twentytwentyfive",
+    "theme_version": "1.5",
+    "playground_cli": "3.1.61",
+    "playwright": "1.57.0",
+    "port": 9400
+  },
+  "tools": {
+    "rawhandler": {
+      "name": "Gutenberg rawHandler (wp.blocks.rawHandler)",
+      "version": "bundled in WordPress 7.1.4",
+      "source": "https://github.com/WordPress/gutenberg/tree/trunk/packages/blocks/src/api/raw-handling"
+    },
+    "static-site-importer": {
+      "name": "Static Site Importer",
+      "version": "1.33.179",
+      "commit": "54c883f13cb77e54ed2ee2312b7f6deb9ce0a5fd",
+      "zip": "https://github.com/Automattic/static-site-importer/releases/download/v1.33.179/static-site-importer.zip",
+      "zip_sha256": "d7c2238cd8ef75e35b358ea3e86d2e56f258b8e4cb69e5fbe4dc720404ebbc57",
+      "source": "https://github.com/Automattic/static-site-importer"
+    },
+    "blocks-engine": {
+      "name": "Blocks Engine PHP Transformer",
+      "version": "0.44.217",
+      "commit": "ece89fe61c3c918ce4777b734b45176352b8c2d2",
+      "zip": "https://github.com/Automattic/blocks-engine/releases/download/php-transformer-v0.44.217/php-transformer.zip",
+      "zip_sha256": "b47c45f10c676fc49c614aff44e2bcad71809ae46b499d7953a995803ec24ee8",
+      "source": "https://github.com/Automattic/blocks-engine"
+    },
+    "block-runner": {
+      "name": "Block Runner",
+      "version": "1.0.0",
+      "commit": "a50f986093b026c8579f77c584b7e0a61ae99084",
+      "npm": "block-runner@1.0.0",
+      "npm_integrity": "sha512-xz8SlBp1jvo0MMaocKd5tDS/dqyYbmxdqwdFiQEv1UyV9KEhUOiZ6XjbOvfst4JGS5UZwhjf3kogAGcnQ3Iacg==",
+      "node_engines": "^22.23.4 || ^24.22.1 || >=26.12.1",
+      "source": "https://github.com/humanmade/block-runner"
+    },
+    "html-to-blocks-converter": {
+      "name": "HTML to Blocks Converter",
+      "version": "0.7.2",
+      "commit": "873674012f6ec3a8f908914a2dfa3751242b908e",
+      "zip": "https://github.com/chubes4/html-to-blocks-converter/releases/download/v0.7.2/html-to-blocks-converter.zip",
+      "zip_sha256": "e3b85f9be71fc0232af5d234ac77fe9f7f9f31136ab8094c67404e533a4da5c3",
+      "source": "https://github.com/chubes4/html-to-blocks-converter"
+    }
+  },
+  "pages": ["index", "about", "services", "contact"]
+}

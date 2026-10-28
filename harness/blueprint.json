@@ -1,0 +1,41 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "wp-html-converter-test base site",
+    "description": "A fresh throwaway WordPress for one converter run. The only base step turns off the editor's welcome guide so screenshots show the content. Tool steps are appended from harness/tools/<tool>.mjs.",
+    "author": "wp-html-converter-test"
+  },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "7.1.4"
+  },
+  "login": true,
+  "siteOptions": {
+    "blogname": "Converter test site",
+    "permalink_structure": "/%postname%/"
+  },
+  "steps": [
+    {
+      "step": "updateUserMeta",
+      "userId": 1,
+      "meta": {
+        "wp_persisted_preferences": {
+          "core/edit-post": {
+            "welcomeGuide": false
+          },
+          "core": {
+            "welcomeGuide": false,
+            "welcomeGuideTemplate": false
+          },
+          "core/edit-site": {
+            "welcomeGuide": false,
+            "welcomeGuideStyles": false,
+            "welcomeGuidePage": false,
+            "welcomeGuideTemplate": false
+          },
+          "_modified": "2026-10-28T00:00:00.000Z"
+        }
+      }
+    }
+  ]
+}
