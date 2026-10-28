@@ -18,9 +18,10 @@ export function nodeSupported([major, minor, patch]) {
 export default {
   id: 'block-runner',
   async prepare(ctx) {
-    const version = process.versions.node.split('.').map(Number);
-    if (!nodeSupported(version)) {
-      throw new Error(`block-runner@${ctx.tool.version} needs Node ${ctx.tool.node_engines}; this is ${process.version}.`);
+    // The harness runs under the pinned Node (pins.json node_runner), and
+    // block-runner's `#!/usr/bin/env node` inherits it through PATH.
+    if (process.versions.node !== ctx.tool.node) {
+      throw new Error(`block-runner runs under the pinned Node ${ctx.tool.node}; this is ${process.version}. Use: ${ctx.tool.node_runner}`);
     }
     for (const name of ctx.pages) {
       const input = path.join(ctx.work, 'input', `${name}.html`);

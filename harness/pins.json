@@ -37,6 +37,8 @@
       "npm": "block-runner@1.0.0",
       "npm_integrity": "sha512-xz8SlBp1jvo0MMaocKd5tDS/dqyYbmxdqwdFiQEv1UyV9KEhUOiZ6XjbOvfst4JGS5UZwhjf3kogAGcnQ3Iacg==",
       "node_engines": "^22.23.4 || ^24.22.1 || >=26.12.1",
+      "node": "24.22.1",
+      "node_runner": "npx -y node@24.22.1 harness/run.mjs block-runner (the machine's global Node is not changed)",
       "source": "https://github.com/humanmade/block-runner"
     },
     "html-to-blocks-converter": {

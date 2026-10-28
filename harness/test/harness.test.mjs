@@ -42,6 +42,7 @@ test('Block Runner Node check matches its engines field', () => {
   assert.equal(nodeSupported([25, 1, 0]), false);
   assert.equal(nodeSupported([26, 12, 1]), true);
   assert.equal(nodeSupported([27, 0, 0]), true);
+  assert.equal(nodeSupported(pins.tools['block-runner'].node.split('.').map(Number)), true, 'the pinned Node satisfies engines');
 });
 
 test('generated page-insert PHP is valid PHP', () => {

@@ -47,7 +47,8 @@ installing it.
 ## Reproduce
 
 Needs Node and npm, and nothing else on the machine: no PHP, no Docker, no
-database. Block Runner needs Node `^22.23.4 || ^24.22.1 || >=26.12.1`.
+database. Block Runner needs Node `^22.23.4 || ^24.22.1 || >=26.12.1`; its run
+uses Node 24.22.1 through `npx -y node@24.22.1` (pinned in `harness/pins.json`).
 
 ```sh
 git clone <this repo> && cd wp-html-converter-test
@@ -61,7 +62,7 @@ node harness/dry-run.mjs
 node harness/run.mjs rawhandler
 node harness/run.mjs static-site-importer
 node harness/run.mjs blocks-engine
-node harness/run.mjs block-runner
+npx -y node@24.22.1 harness/run.mjs block-runner   # Block Runner needs a newer Node; pinned, global Node unchanged
 node harness/run.mjs html-to-blocks-converter
 ```
 
