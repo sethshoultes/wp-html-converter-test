@@ -1,0 +1,1919 @@
+{
+  "dry_run": false,
+  "tool": "blocks-engine",
+  "tool_pin": {
+    "name": "Blocks Engine PHP Transformer",
+    "version": "0.44.217",
+    "commit": "ece89fe61c3c918ce4777b734b45176352b8c2d2",
+    "zip": "https://github.com/Automattic/blocks-engine/releases/download/php-transformer-v0.44.217/php-transformer.zip",
+    "zip_sha256": "b47c45f10c676fc49c614aff44e2bcad71809ae46b499d7953a995803ec24ee8",
+    "source": "https://github.com/Automattic/blocks-engine"
+  },
+  "page": "services",
+  "run_date": "2026-10-28T18:04:50.172Z",
+  "versions": {
+    "php": "8.3",
+    "wp": "7.1.4",
+    "theme": "twentytwentyfive 1.5",
+    "playground_cli": "3.1.61",
+    "playwright": "1.57.0",
+    "node": "v24.6.0",
+    "harness_commit": "9b49a75cc9ca6ef0b939c9f5ba176bf28c022987",
+    "harness_dirty": false,
+    "rubric_commit": "0e06bffc80fb85e63937557802eba909d62c4849"
+  },
+  "input": {
+    "file": ".harness-tmp/blocks-engine/input/services.html",
+    "sha256": "61f3314cb31bf8daa892ff1ee4fec6858e67b65c35ad85b8194259a150b6ac4d"
+  },
+  "timings": {
+    "prepare_ms": 764,
+    "boot_and_blueprint_ms": 21151
+  },
+  "wordpress_page": {
+    "id": 6,
+    "url": "http://127.0.0.1:9400/services/",
+    "stored_content": "<!-- wp:group {\"className\":\"site-header\",\"tagName\":\"header\",\"metadata\":{\"name\":\"Header\"}} --><header class=\"wp-block-group site-header\"><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:buttons {\"className\":\"blocks-engine-layout-neutral-buttons\"} --><div class=\"wp-block-buttons blocks-engine-layout-neutral-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"transparent\"},\"border\":{\"radius\":\"0\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\"}}},\"className\":\"blocks-engine-layout-child-button blocks-engine-native-button-alignment-start\"} --><div class=\"wp-block-button blocks-engine-layout-child-button blocks-engine-native-button-alignment-start\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"border-radius:0;background-color:transparent;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0\" href=\"http://127.0.0.1:9400/sample-site/index.html\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works</a></div><!-- /wp:button --></div><!-- /wp:buttons --><!-- wp:navigation {\"anchor\":\"site-nav\",\"className\":\"site-nav blocks-engine-list-navigation blocks-engine-native-responsive-navigation blocks-engine-native-navigation-toggle-b5e9ccdeeabe\",\"style\":{\"spacing\":{\"blockGap\":\"0px\"}},\"overlayMenu\":\"mobile\"} --><!-- wp:navigation-link {\"label\":\"Home\",\"url\":\"http://127.0.0.1:9400/sample-site/index.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"label\":\"About\",\"url\":\"http://127.0.0.1:9400/sample-site/about.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"className\":\"blocks-engine-current-navigation-item\",\"label\":\"Services\",\"url\":\"http://127.0.0.1:9400/sample-site/services.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"label\":\"Contact\",\"url\":\"http://127.0.0.1:9400/sample-site/contact.html\",\"kind\":\"custom\"} /--><!-- /wp:navigation --></div><!-- /wp:group --></header><!-- /wp:group --><!-- wp:group {\"tagName\":\"main\",\"metadata\":{\"name\":\"Main\"}} --><main class=\"wp-block-group\"><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"level\":1} --><h1 class=\"wp-block-heading\">Services and prices</h1><!-- /wp:heading --><!-- wp:paragraph --><p>Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site.</p><!-- /wp:paragraph --><!-- wp:heading {\"anchor\":\"tune-ups\",\"level\":2} --><h2 id=\"tune-ups\" class=\"wp-block-heading\">Tune-up levels</h2><!-- /wp:heading --><!-- wp:table {\"hasFixedLayout\":false,\"className\":\"blocks-engine-table-6442b2a2d5ba-0\"} --><figure class=\"wp-block-table blocks-engine-table-6442b2a2d5ba-0\"><table><thead><tr><th>Service</th><th>What is included</th><th>Time</th><th>Price</th></tr></thead><tbody><tr><th>Safety check</th><td>Brakes, tyres, bolts, chain wear</td><td>20 min</td><td>15</td></tr><tr><th>Standard tune-up</th><td>Safety check, gears indexed, brakes adjusted, chain cleaned</td><td>1 hour</td><td>45</td></tr><tr><th>Full service</th><td>Standard tune-up, bearings serviced, wheels trued, cables replaced</td><td>Next morning</td><td>110</td></tr></tbody></table><figcaption class=\"wp-element-caption\">Labour prices, in made-up sample currency.</figcaption></figure><!-- /wp:table --></div><!-- /wp:group --><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"anchor\":\"wheels\",\"level\":2} --><h2 id=\"wheels\" class=\"wp-block-heading\">Wheels and cargo bikes</h2><!-- /wp:heading --><!-- wp:group {\"className\":\"cards\",\"layout\":{\"type\":\"grid\"}} --><div class=\"wp-block-group is-layout-grid wp-block-group-is-layout-grid cards\"><!-- wp:group {\"className\":\"card\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Wheel truing\"}} --><article class=\"wp-block-group card\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Wheel truing</h3><!-- /wp:heading --><!-- wp:paragraph --><p>A wobbly wheel trued on the stand, with spoke tension evened out.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Up to 3 spokes replaced</li><!-- /wp:list-item --><!-- wp:list-item --><li>Same-day for most wheels</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --><!-- wp:group {\"className\":\"card\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Hand-built wheels\"}} --><article class=\"wp-block-group card\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Hand-built wheels</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Built to your rims and hubs, tensioned and stress-relieved.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Ready in five working days</li><!-- /wp:list-item --><!-- wp:list-item --><li>Free re-true after a month</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --><!-- wp:group {\"anchor\":\"cargo\",\"className\":\"card blocks-engine-editor-anchor-cargo\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Cargo bike care\"}} --><article id=\"cargo\" class=\"wp-block-group card blocks-engine-editor-anchor-cargo\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Cargo bike care</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Longtails and front-loaders on our long stand, including steering and child-seat checks.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Booked slots only</li><!-- /wp:list-item --><!-- wp:list-item --><li>Collection by arrangement</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --></div><!-- /wp:group --></div><!-- /wp:group --><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Check your chain at home</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code:</p><!-- /wp:paragraph --><!-- wp:code {\"className\":\"language-js\"} --><pre class=\"wp-block-code language-js\"><code>// Chain wear, measured with a checker gauge.\nfunction chainAdvice(wearPercent) {\n  if (wearPercent &gt;= 0.75) {\n    return 'Replace the chain, and check the cassette.';\n  }\n  if (wearPercent &gt;= 0.5) {\n    return 'Replace the chain soon.';\n  }\n  return 'The chain is fine.';\n}</code></pre><!-- /wp:code --><!-- wp:list {\"ordered\":true} --><ol class=\"wp-block-list\"><!-- wp:list-item --><li>Shift to the smallest rear cog.</li><!-- /wp:list-item --><!-- wp:list-item --><li>Drop the checker into the chain.</li><!-- /wp:list-item --><!-- wp:list-item --><li>Read the gauge, then run the rule above.</li><!-- /wp:list-item --></ol><!-- /wp:list --><!-- wp:paragraph --><p><a class=\"button\" href=\"http://127.0.0.1:9400/sample-site/contact.html\">Book a service</a></p><!-- /wp:paragraph --></div><!-- /wp:group --></main><!-- /wp:group --><!-- wp:group {\"className\":\"site-footer\",\"tagName\":\"footer\",\"metadata\":{\"name\":\"Footer\"}} --><footer class=\"wp-block-group site-footer\"><!-- wp:group {\"className\":\"wrap footer-cols\"} --><div class=\"wp-block-group wrap footer-cols\"><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Quillfern Cycle Works</h2><!-- /wp:heading --><!-- wp:paragraph --><p>14 Ferrule Lane, Larkbend</p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Pages</h2><!-- /wp:heading --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li><!-- /wp:list-item --></ul><!-- /wp:list --></div><!-- /wp:group --><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:paragraph --><p>Quillfern Cycle Works is a fictional business, made for a software test.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>© <mark class=\"year\" style=\"background-color:transparent;color:inherit\" role=\"none\">2026</mark> Sample site, MIT licence.</p><!-- /wp:paragraph --></div><!-- /wp:group --></div><!-- /wp:group --></footer><!-- /wp:group -->"
+  },
+  "original": {
+    "390": {
+      "status": 200,
+      "screenshot": "original-services-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/services.html",
+        "title": "Services and prices | Quillfern Cycle Works",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Services and prices",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Tune-up levels",
+            "id": "tune-ups"
+          },
+          {
+            "level": 2,
+            "text": "Wheels and cargo bikes",
+            "id": "wheels"
+          },
+          {
+            "level": 3,
+            "text": "Wheel truing",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Hand-built wheels",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Cargo bike care",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Check your chain at home",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Menu Services and prices Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site. Tune-up levels Labour prices, in made-up sample currency. Service What is included Time Price Safety check Brakes, tyres, bolts, chain wear 20 min 15 Standard tune-up Safety check, gears indexed, brakes adjusted, chain cleaned 1 hour 45 Full service Standard tune-up, bearings serviced, wheels trued, cables replaced Next morning 110 Wheels and cargo bikes Wheel truing A wobbly wheel trued on the stand, with spoke tension evened out. Up to 3 spokes replaced Same-day for most wheels Hand-built wheels Built to your rims and hubs, tensioned and stress-relieved. Ready in five working days Free re-true after a month Cargo bike care Longtails and front-loaders on our long stand, including steering and child-seat checks. Booked slots only Collection by arrangement Check your chain at home Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code: // Chain wear, measured with a checker gauge. function chainAdvice(wearPercent) { if (wearPercent >= 0.75) { return 'Replace the chain, and check the cassette.'; } if (wearPercent >= 0.5) { return 'Replace the chain soon.'; } return 'The chain is fine.'; } Shift to the smallest rear cog. Drop the checker into the chain. Read the gauge, then run the rule above. Book a service Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Up to 3 spokes replaced",
+              "Same-day for most wheels"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Ready in five working days",
+              "Free re-true after a month"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Booked slots only",
+              "Collection by arrangement"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "Shift to the smallest rear cog.",
+              "Drop the checker into the chain.",
+              "Read the gauge, then run the rule above."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "caption": "Labour prices, in made-up sample currency.",
+            "thead_cells": 4,
+            "body_rows": 3,
+            "row_headers": 3
+          }
+        ],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Book a service",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgb(233, 166, 75)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "Services and prices",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Tune-up levels",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Wheels and cargo bikes",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Wheel truing",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Hand-built wheels",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Cargo bike care",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Check your chain at home",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": "rgb(233, 166, 75)"
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "original-services-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/services.html",
+        "title": "Services and prices | Quillfern Cycle Works",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Services and prices",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Tune-up levels",
+            "id": "tune-ups"
+          },
+          {
+            "level": 2,
+            "text": "Wheels and cargo bikes",
+            "id": "wheels"
+          },
+          {
+            "level": 3,
+            "text": "Wheel truing",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Hand-built wheels",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Cargo bike care",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Check your chain at home",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Home About Services Contact Services and prices Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site. Tune-up levels Labour prices, in made-up sample currency. Service What is included Time Price Safety check Brakes, tyres, bolts, chain wear 20 min 15 Standard tune-up Safety check, gears indexed, brakes adjusted, chain cleaned 1 hour 45 Full service Standard tune-up, bearings serviced, wheels trued, cables replaced Next morning 110 Wheels and cargo bikes Wheel truing A wobbly wheel trued on the stand, with spoke tension evened out. Up to 3 spokes replaced Same-day for most wheels Hand-built wheels Built to your rims and hubs, tensioned and stress-relieved. Ready in five working days Free re-true after a month Cargo bike care Longtails and front-loaders on our long stand, including steering and child-seat checks. Booked slots only Collection by arrangement Check your chain at home Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code: // Chain wear, measured with a checker gauge. function chainAdvice(wearPercent) { if (wearPercent >= 0.75) { return 'Replace the chain, and check the cassette.'; } if (wearPercent >= 0.5) { return 'Replace the chain soon.'; } return 'The chain is fine.'; } Shift to the smallest rear cog. Drop the checker into the chain. Read the gauge, then run the rule above. Book a service Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Up to 3 spokes replaced",
+              "Same-day for most wheels"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Ready in five working days",
+              "Free re-true after a month"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Booked slots only",
+              "Collection by arrangement"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "Shift to the smallest rear cog.",
+              "Drop the checker into the chain.",
+              "Read the gauge, then run the rule above."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "caption": "Labour prices, in made-up sample currency.",
+            "thead_cells": 4,
+            "body_rows": 3,
+            "row_headers": 3
+          }
+        ],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Book a service",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgb(233, 166, 75)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "Services and prices",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Tune-up levels",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Wheels and cargo bikes",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Wheel truing",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Hand-built wheels",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Cargo bike care",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Check your chain at home",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": "rgb(233, 166, 75)"
+        }
+      }
+    }
+  },
+  "converted": {
+    "390": {
+      "status": 200,
+      "screenshot": "converted-services-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/services/",
+        "title": "Services – Converter test site",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Services",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "Services and prices",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Tune-up levels",
+            "id": "tune-ups"
+          },
+          {
+            "level": 2,
+            "text": "Wheels and cargo bikes",
+            "id": "wheels"
+          },
+          {
+            "level": 3,
+            "text": "Wheel truing",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Hand-built wheels",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Cargo bike care",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Check your chain at home",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site Services Quillfern Cycle Works Services and prices Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site. Tune-up levels Service What is included Time Price Safety check Brakes, tyres, bolts, chain wear 20 min 15 Standard tune-up Safety check, gears indexed, brakes adjusted, chain cleaned 1 hour 45 Full service Standard tune-up, bearings serviced, wheels trued, cables replaced Next morning 110 Labour prices, in made-up sample currency. Wheels and cargo bikes Wheel truing A wobbly wheel trued on the stand, with spoke tension evened out. Up to 3 spokes replaced Same-day for most wheels Hand-built wheels Built to your rims and hubs, tensioned and stress-relieved. Ready in five working days Free re-true after a month Cargo bike care Longtails and front-loaders on our long stand, including steering and child-seat checks. Booked slots only Collection by arrangement Check your chain at home Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code: // Chain wear, measured with a checker gauge. function chainAdvice(wearPercent) { if (wearPercent >= 0.75) { return 'Replace the chain, and check the cassette.'; } if (wearPercent >= 0.5) { return 'Replace the chain soon.'; } return 'The chain is fine.'; } Shift to the smallest rear cog. Drop the checker into the chain. Read the gauge, then run the rule above. Book a service Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Up to 3 spokes replaced",
+              "Same-day for most wheels"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Ready in five working days",
+              "Free re-true after a month"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Booked slots only",
+              "Collection by arrangement"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "Shift to the smallest rear cog.",
+              "Drop the checker into the chain.",
+              "Read the gauge, then run the rule above."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "caption": null,
+            "thead_cells": 4,
+            "body_rows": 3,
+            "row_headers": 3
+          }
+        ],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/services/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "wp-block-button__link has-background wp-element-button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Book a service",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "Labour prices, in made-up sample currency."
+        ],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": true
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": true
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          }
+        ],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": null,
+          "site_script_marker": null,
+          "script_tags": 6
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "Services",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Services and prices",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Tune-up levels",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Wheels and cargo bikes",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Wheel truing",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Hand-built wheels",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Cargo bike care",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Check your chain at home",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": "rgba(0, 0, 0, 0)"
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "converted-services-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/services/",
+        "title": "Services – Converter test site",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Services",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "Services and prices",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Tune-up levels",
+            "id": "tune-ups"
+          },
+          {
+            "level": 2,
+            "text": "Wheels and cargo bikes",
+            "id": "wheels"
+          },
+          {
+            "level": 3,
+            "text": "Wheel truing",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Hand-built wheels",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Cargo bike care",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Check your chain at home",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site About Contact Home Sample Page Services Services Quillfern Cycle Works Home About Services Contact Services and prices Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site. Tune-up levels Service What is included Time Price Safety check Brakes, tyres, bolts, chain wear 20 min 15 Standard tune-up Safety check, gears indexed, brakes adjusted, chain cleaned 1 hour 45 Full service Standard tune-up, bearings serviced, wheels trued, cables replaced Next morning 110 Labour prices, in made-up sample currency. Wheels and cargo bikes Wheel truing A wobbly wheel trued on the stand, with spoke tension evened out. Up to 3 spokes replaced Same-day for most wheels Hand-built wheels Built to your rims and hubs, tensioned and stress-relieved. Ready in five working days Free re-true after a month Cargo bike care Longtails and front-loaders on our long stand, including steering and child-seat checks. Booked slots only Collection by arrangement Check your chain at home Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code: // Chain wear, measured with a checker gauge. function chainAdvice(wearPercent) { if (wearPercent >= 0.75) { return 'Replace the chain, and check the cassette.'; } if (wearPercent >= 0.5) { return 'Replace the chain soon.'; } return 'The chain is fine.'; } Shift to the smallest rear cog. Drop the checker into the chain. Read the gauge, then run the rule above. Book a service Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Up to 3 spokes replaced",
+              "Same-day for most wheels"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Ready in five working days",
+              "Free re-true after a month"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Booked slots only",
+              "Collection by arrangement"
+            ]
+          },
+          {
+            "tag": "ol",
+            "items": [
+              "Shift to the smallest rear cog.",
+              "Drop the checker into the chain.",
+              "Read the gauge, then run the rule above."
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "caption": null,
+            "thead_cells": 4,
+            "body_rows": 3,
+            "row_headers": 3
+          }
+        ],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/services/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "wp-block-button__link has-background wp-element-button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Book a service",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/services/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [
+          "Labour prices, in made-up sample currency."
+        ],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          }
+        ],
+        "forms": [],
+        "scripts": {
+          "inline_script_marker": null,
+          "site_script_marker": null,
+          "script_tags": 6
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "Services",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Services and prices",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Tune-up levels",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Wheels and cargo bikes",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Wheel truing",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Hand-built wheels",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Cargo bike care",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Check your chain at home",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": "rgba(0, 0, 0, 0)"
+        }
+      }
+    }
+  },
+  "editor": {
+    "screenshot": "converted-services-editor.png",
+    "list_view_screenshot": "converted-services-listview.png",
+    "welcome_guide_visible": false,
+    "console_validation_messages": [],
+    "post_content": "<!-- wp:group {\"className\":\"site-header\",\"tagName\":\"header\",\"metadata\":{\"name\":\"Header\"}} --><header class=\"wp-block-group site-header\"><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:buttons {\"className\":\"blocks-engine-layout-neutral-buttons\"} --><div class=\"wp-block-buttons blocks-engine-layout-neutral-buttons\"><!-- wp:button {\"style\":{\"color\":{\"background\":\"transparent\"},\"border\":{\"radius\":\"0\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\"}}},\"className\":\"blocks-engine-layout-child-button blocks-engine-native-button-alignment-start\"} --><div class=\"wp-block-button blocks-engine-layout-child-button blocks-engine-native-button-alignment-start\"><a class=\"wp-block-button__link has-background wp-element-button\" style=\"border-radius:0;background-color:transparent;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0\" href=\"http://127.0.0.1:9400/sample-site/index.html\"><img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works</a></div><!-- /wp:button --></div><!-- /wp:buttons --><!-- wp:navigation {\"anchor\":\"site-nav\",\"className\":\"site-nav blocks-engine-list-navigation blocks-engine-native-responsive-navigation blocks-engine-native-navigation-toggle-b5e9ccdeeabe\",\"style\":{\"spacing\":{\"blockGap\":\"0px\"}},\"overlayMenu\":\"mobile\"} --><!-- wp:navigation-link {\"label\":\"Home\",\"url\":\"http://127.0.0.1:9400/sample-site/index.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"label\":\"About\",\"url\":\"http://127.0.0.1:9400/sample-site/about.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"className\":\"blocks-engine-current-navigation-item\",\"label\":\"Services\",\"url\":\"http://127.0.0.1:9400/sample-site/services.html\",\"kind\":\"custom\"} /--><!-- wp:navigation-link {\"label\":\"Contact\",\"url\":\"http://127.0.0.1:9400/sample-site/contact.html\",\"kind\":\"custom\"} /--><!-- /wp:navigation --></div><!-- /wp:group --></header><!-- /wp:group --><!-- wp:group {\"tagName\":\"main\",\"metadata\":{\"name\":\"Main\"}} --><main class=\"wp-block-group\"><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"level\":1} --><h1 class=\"wp-block-heading\">Services and prices</h1><!-- /wp:heading --><!-- wp:paragraph --><p>Prices are fixed for labour. Parts are extra, and we tell you the part price before we fit anything. All prices are invented for this sample site.</p><!-- /wp:paragraph --><!-- wp:heading {\"anchor\":\"tune-ups\",\"level\":2} --><h2 id=\"tune-ups\" class=\"wp-block-heading\">Tune-up levels</h2><!-- /wp:heading --><!-- wp:table {\"hasFixedLayout\":false,\"className\":\"blocks-engine-table-6442b2a2d5ba-0\"} --><figure class=\"wp-block-table blocks-engine-table-6442b2a2d5ba-0\"><table><thead><tr><th>Service</th><th>What is included</th><th>Time</th><th>Price</th></tr></thead><tbody><tr><th>Safety check</th><td>Brakes, tyres, bolts, chain wear</td><td>20 min</td><td>15</td></tr><tr><th>Standard tune-up</th><td>Safety check, gears indexed, brakes adjusted, chain cleaned</td><td>1 hour</td><td>45</td></tr><tr><th>Full service</th><td>Standard tune-up, bearings serviced, wheels trued, cables replaced</td><td>Next morning</td><td>110</td></tr></tbody></table><figcaption class=\"wp-element-caption\">Labour prices, in made-up sample currency.</figcaption></figure><!-- /wp:table --></div><!-- /wp:group --><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"anchor\":\"wheels\",\"level\":2} --><h2 id=\"wheels\" class=\"wp-block-heading\">Wheels and cargo bikes</h2><!-- /wp:heading --><!-- wp:group {\"className\":\"cards\",\"layout\":{\"type\":\"grid\"}} --><div class=\"wp-block-group is-layout-grid wp-block-group-is-layout-grid cards\"><!-- wp:group {\"className\":\"card\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Wheel truing\"}} --><article class=\"wp-block-group card\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Wheel truing</h3><!-- /wp:heading --><!-- wp:paragraph --><p>A wobbly wheel trued on the stand, with spoke tension evened out.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Up to 3 spokes replaced</li><!-- /wp:list-item --><!-- wp:list-item --><li>Same-day for most wheels</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --><!-- wp:group {\"className\":\"card\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Hand-built wheels\"}} --><article class=\"wp-block-group card\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Hand-built wheels</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Built to your rims and hubs, tensioned and stress-relieved.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Ready in five working days</li><!-- /wp:list-item --><!-- wp:list-item --><li>Free re-true after a month</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --><!-- wp:group {\"anchor\":\"cargo\",\"className\":\"card blocks-engine-editor-anchor-cargo\",\"tagName\":\"article\",\"metadata\":{\"name\":\"Cargo bike care\"}} --><article id=\"cargo\" class=\"wp-block-group card blocks-engine-editor-anchor-cargo\"><!-- wp:heading {\"level\":3} --><h3 class=\"wp-block-heading\">Cargo bike care</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Longtails and front-loaders on our long stand, including steering and child-seat checks.</p><!-- /wp:paragraph --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li>Booked slots only</li><!-- /wp:list-item --><!-- wp:list-item --><li>Collection by arrangement</li><!-- /wp:list-item --></ul><!-- /wp:list --></article><!-- /wp:group --></div><!-- /wp:group --></div><!-- /wp:group --><!-- wp:group {\"className\":\"wrap\"} --><div class=\"wp-block-group wrap\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Check your chain at home</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Between visits, a chain checker tells you when a chain is worn. Here is the rule we use, written as code:</p><!-- /wp:paragraph --><!-- wp:code {\"className\":\"language-js\"} --><pre class=\"wp-block-code language-js\"><code>// Chain wear, measured with a checker gauge.\nfunction chainAdvice(wearPercent) {\n  if (wearPercent &gt;= 0.75) {\n    return 'Replace the chain, and check the cassette.';\n  }\n  if (wearPercent &gt;= 0.5) {\n    return 'Replace the chain soon.';\n  }\n  return 'The chain is fine.';\n}</code></pre><!-- /wp:code --><!-- wp:list {\"ordered\":true} --><ol class=\"wp-block-list\"><!-- wp:list-item --><li>Shift to the smallest rear cog.</li><!-- /wp:list-item --><!-- wp:list-item --><li>Drop the checker into the chain.</li><!-- /wp:list-item --><!-- wp:list-item --><li>Read the gauge, then run the rule above.</li><!-- /wp:list-item --></ol><!-- /wp:list --><!-- wp:paragraph --><p><a class=\"button\" href=\"http://127.0.0.1:9400/sample-site/contact.html\">Book a service</a></p><!-- /wp:paragraph --></div><!-- /wp:group --></main><!-- /wp:group --><!-- wp:group {\"className\":\"site-footer\",\"tagName\":\"footer\",\"metadata\":{\"name\":\"Footer\"}} --><footer class=\"wp-block-group site-footer\"><!-- wp:group {\"className\":\"wrap footer-cols\"} --><div class=\"wp-block-group wrap footer-cols\"><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Quillfern Cycle Works</h2><!-- /wp:heading --><!-- wp:paragraph --><p>14 Ferrule Lane, Larkbend</p><!-- /wp:paragraph --></div><!-- /wp:group --><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading {\"level\":2} --><h2 class=\"wp-block-heading\">Pages</h2><!-- /wp:heading --><!-- wp:list --><ul class=\"wp-block-list\"><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li><!-- /wp:list-item --></ul><!-- /wp:list --></div><!-- /wp:group --><!-- wp:group --><div class=\"wp-block-group\"><!-- wp:paragraph --><p>Quillfern Cycle Works is a fictional business, made for a software test.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>© <mark class=\"year\" style=\"background-color:transparent;color:inherit\" role=\"none\">2026</mark> Sample site, MIT licence.</p><!-- /wp:paragraph --></div><!-- /wp:group --></div><!-- /wp:group --></footer><!-- /wp:group -->",
+    "blocks": [
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 21
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/buttons",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/button",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/navigation",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/navigation-link",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/navigation-link",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/navigation-link",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/navigation-link",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 1447
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/table",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 5,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/code",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 182
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 1,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/heading",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/list-item",
+        "isValid": true,
+        "depth": 4,
+        "text_length": null
+      },
+      {
+        "name": "core/group",
+        "isValid": true,
+        "depth": 2,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      },
+      {
+        "name": "core/paragraph",
+        "isValid": true,
+        "depth": 3,
+        "text_length": null
+      }
+    ],
+    "block_counts": {
+      "core/group": 15,
+      "core/buttons": 1,
+      "core/button": 1,
+      "core/navigation": 1,
+      "core/navigation-link": 4,
+      "core/heading": 9,
+      "core/paragraph": 9,
+      "core/table": 1,
+      "core/list": 5,
+      "core/list-item": 12,
+      "core/code": 1
+    },
+    "invalid_blocks": 0,
+    "recovery_notices": 0
+  },
+  "after_boot": null,
+  "checks": null,
+  "scores": null
+}
