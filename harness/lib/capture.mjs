@@ -104,13 +104,18 @@ function collectFrontendFacts() {
   };
 }
 
+// Frontend shots are taken logged out (no admin bar): this cookie tells
+// Playground its auto-login already happened, so it does not log us in. It is
+// set on path / so it survives redirects (the front page's /home/ goes to /).
+export function autoLoginCookie(url) {
+  return { name: 'playground_auto_login_already_happened', value: '1', domain: new URL(url).hostname, path: '/' };
+}
+
 export async function captureFrontend(browser, url, outPrefix) {
   const result = {};
   for (const vp of VIEWPORTS) {
     const context = await browser.newContext({ viewport: { width: vp.width, height: vp.height } });
-    // Frontend shots are taken logged out (no admin bar): this cookie tells
-    // Playground its auto-login already happened, so it does not log us in.
-    await context.addCookies([{ name: 'playground_auto_login_already_happened', value: '1', url }]);
+    await context.addCookies([autoLoginCookie(url)]);
     const page = await context.newPage();
     const response = await page.goto(url, { waitUntil: 'load' });
     await page.evaluate(() => document.fonts.ready);

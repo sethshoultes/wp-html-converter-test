@@ -7,6 +7,7 @@ import { mkdtempSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { test } from 'node:test';
+import { autoLoginCookie } from '../lib/capture.mjs';
 import { SAMPLE_DIR, pins } from '../lib/env.mjs';
 import { pageBody } from '../lib/input.mjs';
 import { nodeSupported } from '../tools/block-runner.mjs';
@@ -49,4 +50,9 @@ test('generated page-insert PHP is valid PHP', () => {
   writeFileSync(file, insertPagesPhp(pins.pages, '$content = file_get_contents( "/harness/input/{$page}.html" );'));
   const outText = execFileSync('php', ['-l', file], { encoding: 'utf8' });
   assert.match(outText, /No syntax errors/);
+});
+
+test('the logged-out cookie covers the whole site, so a redirect from /home/ to / stays logged out', () => {
+  const cookie = autoLoginCookie('http://127.0.0.1:9400/home/');
+  assert.deepEqual(cookie, { name: 'playground_auto_login_already_happened', value: '1', domain: '127.0.0.1', path: '/' });
 });
