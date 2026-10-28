@@ -1,0 +1,16 @@
+rawhandler, attempt 1 (2026-10-28T17:51:31Z, harness commit fbca94a). Discarded: harness fault, not a tool result.
+
+What went wrong: the converted index page was screenshotted logged in, with the
+WordPress admin bar ("Howdy, admin") and two Gravatar images from it in the
+image facts. The other three pages were logged out, as the harness intends.
+
+Why: the harness tells Playground "auto-login already happened" with a cookie
+whose path came from the page URL. The index page's permalink is /home/, and
+WordPress redirects it to / because it is the front page. A cookie scoped to
+/home/ is not sent to /, so Playground auto-logged that request in.
+
+Fix: the cookie is set on path / (harness/lib/capture.mjs, autoLoginCookie),
+committed separately, then rawhandler was run again on a fresh Playground.
+
+This attempt's files are kept unchanged as the failed-attempt log
+(RUBRIC.md, "Running rules"). They are not evidence for scoring.

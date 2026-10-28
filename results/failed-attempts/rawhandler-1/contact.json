@@ -1,0 +1,1561 @@
+{
+  "dry_run": false,
+  "tool": "rawhandler",
+  "tool_pin": {
+    "name": "Gutenberg rawHandler (wp.blocks.rawHandler)",
+    "version": "bundled in WordPress 7.1.4",
+    "source": "https://github.com/WordPress/gutenberg/tree/trunk/packages/blocks/src/api/raw-handling"
+  },
+  "page": "contact",
+  "run_date": "2026-10-28T17:51:31.875Z",
+  "versions": {
+    "php": "8.3",
+    "wp": "7.1.4",
+    "theme": "twentytwentyfive 1.5",
+    "playground_cli": "3.1.61",
+    "playwright": "1.57.0",
+    "node": "v24.6.0",
+    "harness_commit": "fbca94a59c20b3c91908631d24b70f9423f17702",
+    "harness_dirty": false,
+    "rubric_commit": "0e06bffc80fb85e63937557802eba909d62c4849"
+  },
+  "input": {
+    "file": ".harness-tmp/rawhandler/input/contact.html",
+    "sha256": "61cb380e7db9b3d5c3bb4abb0f20a8c2e15701f84d813365cb953dfd6bf7154d"
+  },
+  "timings": {
+    "prepare_ms": 0,
+    "boot_and_blueprint_ms": 17029,
+    "after_boot_ms": 12557
+  },
+  "wordpress_page": {
+    "id": 7,
+    "url": "http://127.0.0.1:9400/contact/",
+    "stored_content": ""
+  },
+  "original": {
+    "390": {
+      "status": 200,
+      "screenshot": "original-contact-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/contact.html",
+        "title": "Contact | Quillfern Cycle Works",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Book a repair",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Find the workshop",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Opening hours",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Menu Book a repair Tell us about the bike and when you can bring it in. We reply within one working day. Your name Email Service Safety check Standard tune-up Full service Wheel work Cargo bike care About the bike Text me when it is ready Send booking request This sample form does not send anything. Find the workshop Ferrule Lane Larkbend Park Opening hours Tuesday to Friday: 9:00 to 17:30 Saturday: 9:00 to 16:00 Sunday and Monday: closed Phone: 555-0142 (a fictional number). Email: hello@quillfern.example See services and prices Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Tuesday to Friday: 9:00 to 17:30",
+              "Saturday: 9:00 to 16:00",
+              "Sunday and Monday: closed"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "555-0142",
+            "href": "tel:+15555550142",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "hello@quillfern.example",
+            "href": "mailto:hello@quillfern.example",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "See services and prices",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgb(233, 166, 75)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": "Map showing the workshop on Ferrule Lane, next to the park",
+            "shapes": 7,
+            "visible": true
+          }
+        ],
+        "forms": [
+          {
+            "controls": [
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "name",
+                "required": true,
+                "label": "Your name"
+              },
+              {
+                "tag": "input",
+                "type": "email",
+                "name": "email",
+                "required": true,
+                "label": "Email"
+              },
+              {
+                "tag": "select",
+                "type": "select-one",
+                "name": "service",
+                "required": false,
+                "label": "Service",
+                "options": 5
+              },
+              {
+                "tag": "textarea",
+                "type": "textarea",
+                "name": "message",
+                "required": false,
+                "label": "About the bike"
+              },
+              {
+                "tag": "input",
+                "type": "checkbox",
+                "name": "text-me",
+                "required": false,
+                "label": "Text me when it is ready"
+              },
+              {
+                "tag": "button",
+                "type": "submit",
+                "name": null,
+                "required": false,
+                "label": null
+              }
+            ]
+          }
+        ],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "Book a repair",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Find the workshop",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Opening hours",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": "rgb(233, 166, 75)"
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "original-contact-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/sample-site/contact.html",
+        "title": "Contact | Quillfern Cycle Works",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Book a repair",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Find the workshop",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Opening hours",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          }
+        ],
+        "text": "Quillfern Cycle Works Home About Services Contact Book a repair Tell us about the bike and when you can bring it in. We reply within one working day. Your name Email Service Safety check Standard tune-up Full service Wheel work Cargo bike care About the bike Text me when it is ready Send booking request This sample form does not send anything. Find the workshop Ferrule Lane Larkbend Park Opening hours Tuesday to Friday: 9:00 to 17:30 Saturday: 9:00 to 16:00 Sunday and Monday: closed Phone: 555-0142 (a fictional number). Email: hello@quillfern.example See services and prices Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence.",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Tuesday to Friday: 9:00 to 17:30",
+              "Saturday: 9:00 to 16:00",
+              "Sunday and Monday: closed"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "555-0142",
+            "href": "tel:+15555550142",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "hello@quillfern.example",
+            "href": "mailto:hello@quillfern.example",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "See services and prices",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgb(233, 166, 75)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": "Map showing the workshop on Ferrule Lane, next to the park",
+            "shapes": 7,
+            "visible": true
+          }
+        ],
+        "forms": [
+          {
+            "controls": [
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "name",
+                "required": true,
+                "label": "Your name"
+              },
+              {
+                "tag": "input",
+                "type": "email",
+                "name": "email",
+                "required": true,
+                "label": "Email"
+              },
+              {
+                "tag": "select",
+                "type": "select-one",
+                "name": "service",
+                "required": false,
+                "label": "Service",
+                "options": 5
+              },
+              {
+                "tag": "textarea",
+                "type": "textarea",
+                "name": "message",
+                "required": false,
+                "label": "About the bike"
+              },
+              {
+                "tag": "input",
+                "type": "checkbox",
+                "name": "text-me",
+                "required": false,
+                "label": "Text me when it is ready"
+              },
+              {
+                "tag": "button",
+                "type": "submit",
+                "name": null,
+                "required": false,
+                "label": null
+              }
+            ]
+          }
+        ],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": "ran",
+          "script_tags": 2
+        },
+        "theme": {
+          "heading_font": "Arvo, Georgia, serif",
+          "heading_colors": [
+            {
+              "text": "Book a repair",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Find the workshop",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Opening hours",
+              "color": "rgb(31, 78, 95)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(251, 248, 242)",
+              "font": "Arvo, Georgia, serif"
+            }
+          ],
+          "arvo_faces": [
+            {
+              "weight": "400",
+              "status": "unloaded"
+            },
+            {
+              "weight": "700",
+              "status": "loaded"
+            }
+          ],
+          "body_background": "rgb(251, 248, 242)",
+          "body_color": "rgb(26, 38, 36)",
+          "header_background": "rgb(31, 78, 95)",
+          "button_background": "rgb(233, 166, 75)"
+        }
+      }
+    }
+  },
+  "converted": {
+    "390": {
+      "status": 200,
+      "screenshot": "converted-contact-390.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/contact/",
+        "title": "Contact – Converter test site",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scroll_width": 390,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Contact",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "Book a repair",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Find the workshop",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Opening hours",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site Contact Quillfern Cycle Works Menu Home About Services Contact Book a repair Tell us about the bike and when you can bring it in. We reply within one working day. Your name Email Service Safety check Standard tune-up Full service Wheel work Cargo bike care About the bike Text me when it is ready Send booking request This sample form does not send anything. Find the workshop Ferrule Lane Larkbend Park Opening hours Tuesday to Friday: 9:00 to 17:30 Saturday: 9:00 to 16:00 Sunday and Monday: closed Phone: 555-0142 (a fictional number). Email: hello@quillfern.example See services and prices Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Tuesday to Friday: 9:00 to 17:30",
+              "Saturday: 9:00 to 16:00",
+              "Sunday and Monday: closed"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/contact/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": false
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "555-0142",
+            "href": "tel:+15555550142",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "hello@quillfern.example",
+            "href": "mailto:hello@quillfern.example",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "See services and prices",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": true
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          },
+          {
+            "title": "Map showing the workshop on Ferrule Lane, next to the park",
+            "shapes": 7,
+            "visible": true
+          }
+        ],
+        "forms": [
+          {
+            "controls": [
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "name",
+                "required": true,
+                "label": "Your name"
+              },
+              {
+                "tag": "input",
+                "type": "email",
+                "name": "email",
+                "required": true,
+                "label": "Email"
+              },
+              {
+                "tag": "select",
+                "type": "select-one",
+                "name": "service",
+                "required": false,
+                "label": "Service",
+                "options": 5
+              },
+              {
+                "tag": "textarea",
+                "type": "textarea",
+                "name": "message",
+                "required": false,
+                "label": "About the bike"
+              },
+              {
+                "tag": "input",
+                "type": "checkbox",
+                "name": "text-me",
+                "required": false,
+                "label": "Text me when it is ready"
+              },
+              {
+                "tag": "button",
+                "type": "submit",
+                "name": null,
+                "required": false,
+                "label": null
+              }
+            ]
+          }
+        ],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": null,
+          "script_tags": 7
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "Contact",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Book a repair",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Find the workshop",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Opening hours",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": "rgba(0, 0, 0, 0)"
+        }
+      }
+    },
+    "1280": {
+      "status": 200,
+      "screenshot": "converted-contact-1280.png",
+      "facts": {
+        "url": "http://127.0.0.1:9400/contact/",
+        "title": "Contact – Converter test site",
+        "viewport": {
+          "width": 1280,
+          "height": 800
+        },
+        "scroll_width": 1280,
+        "headings": [
+          {
+            "level": 1,
+            "text": "Contact",
+            "id": null
+          },
+          {
+            "level": 1,
+            "text": "Book a repair",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Find the workshop",
+            "id": null
+          },
+          {
+            "level": 3,
+            "text": "Opening hours",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Quillfern Cycle Works",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Pages",
+            "id": null
+          },
+          {
+            "level": 2,
+            "text": "Converter test site",
+            "id": null
+          }
+        ],
+        "text": "Skip to content Converter test site About Contact Home Sample Page Services Contact Quillfern Cycle Works Menu Home About Services Contact Book a repair Tell us about the bike and when you can bring it in. We reply within one working day. Your name Email Service Safety check Standard tune-up Full service Wheel work Cargo bike care About the bike Text me when it is ready Send booking request This sample form does not send anything. Find the workshop Ferrule Lane Larkbend Park Opening hours Tuesday to Friday: 9:00 to 17:30 Saturday: 9:00 to 16:00 Sunday and Monday: closed Phone: 555-0142 (a fictional number). Email: hello@quillfern.example See services and prices Quillfern Cycle Works 14 Ferrule Lane, Larkbend Pages About Services Contact Quillfern Cycle Works is a fictional business, made for a software test. © 2026 Sample site, MIT licence. Converter test site Blog About FAQs Authors Events Shop Patterns Themes Twenty Twenty-Five Designed with WordPress",
+        "lists": [
+          {
+            "tag": "ul",
+            "items": []
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Contact",
+              "Home",
+              "Sample Page",
+              "Services"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Home",
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Tuesday to Friday: 9:00 to 17:30",
+              "Saturday: 9:00 to 16:00",
+              "Sunday and Monday: closed"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "About",
+              "Services",
+              "Contact"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Blog",
+              "About",
+              "FAQs",
+              "Authors"
+            ]
+          },
+          {
+            "tag": "ul",
+            "items": [
+              "Events",
+              "Shop",
+              "Patterns",
+              "Themes"
+            ]
+          }
+        ],
+        "tables": [],
+        "links": [
+          {
+            "text": "Skip to content",
+            "href": "http://127.0.0.1:9400/contact/#wp--skip-link--target",
+            "class": "skip-link screen-reader-text",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/about/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/contact/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Sample Page",
+            "href": "http://127.0.0.1:9400/sample-page/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/services/",
+            "class": "wp-block-pages-list__item__link wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Quillfern Cycle Works",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": "brand",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Home",
+            "href": "http://127.0.0.1:9400/sample-site/index.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": "page",
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "555-0142",
+            "href": "tel:+15555550142",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "hello@quillfern.example",
+            "href": "mailto:hello@quillfern.example",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "See services and prices",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": "button",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/sample-site/about.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Services",
+            "href": "http://127.0.0.1:9400/sample-site/services.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Contact",
+            "href": "http://127.0.0.1:9400/sample-site/contact.html",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Converter test site",
+            "href": "http://127.0.0.1:9400/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Blog",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "About",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "FAQs",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Authors",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Events",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Shop",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Patterns",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "Themes",
+            "href": "http://127.0.0.1:9400/contact/#",
+            "class": "wp-block-navigation-item__content",
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          },
+          {
+            "text": "WordPress",
+            "href": "https://wordpress.org/",
+            "class": null,
+            "aria_current": null,
+            "background": "rgba(0, 0, 0, 0)",
+            "visible": true
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:9400/sample-site/assets/img/logo.svg",
+            "alt": "",
+            "natural_width": 150,
+            "visible": true
+          }
+        ],
+        "figcaptions": [],
+        "background_images": [],
+        "iframes": [],
+        "svgs": [
+          {
+            "title": null,
+            "shapes": 2,
+            "visible": false
+          },
+          {
+            "title": null,
+            "shapes": 1,
+            "visible": false
+          },
+          {
+            "title": "Map showing the workshop on Ferrule Lane, next to the park",
+            "shapes": 7,
+            "visible": true
+          }
+        ],
+        "forms": [
+          {
+            "controls": [
+              {
+                "tag": "input",
+                "type": "text",
+                "name": "name",
+                "required": true,
+                "label": "Your name"
+              },
+              {
+                "tag": "input",
+                "type": "email",
+                "name": "email",
+                "required": true,
+                "label": "Email"
+              },
+              {
+                "tag": "select",
+                "type": "select-one",
+                "name": "service",
+                "required": false,
+                "label": "Service",
+                "options": 5
+              },
+              {
+                "tag": "textarea",
+                "type": "textarea",
+                "name": "message",
+                "required": false,
+                "label": "About the bike"
+              },
+              {
+                "tag": "input",
+                "type": "checkbox",
+                "name": "text-me",
+                "required": false,
+                "label": "Text me when it is ready"
+              },
+              {
+                "tag": "button",
+                "type": "submit",
+                "name": null,
+                "required": false,
+                "label": null
+              }
+            ]
+          }
+        ],
+        "scripts": {
+          "inline_script_marker": "ran",
+          "site_script_marker": null,
+          "script_tags": 7
+        },
+        "theme": {
+          "heading_font": "Manrope, sans-serif",
+          "heading_colors": [
+            {
+              "text": "Contact",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Book a repair",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Find the workshop",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Opening hours",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Quillfern Cycle Works",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Pages",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            },
+            {
+              "text": "Converter test site",
+              "color": "rgb(17, 17, 17)",
+              "font": "Manrope, sans-serif"
+            }
+          ],
+          "arvo_faces": [],
+          "body_background": "rgb(255, 255, 255)",
+          "body_color": "rgb(17, 17, 17)",
+          "header_background": "rgba(0, 0, 0, 0)",
+          "button_background": "rgba(0, 0, 0, 0)"
+        }
+      }
+    }
+  },
+  "editor": {
+    "screenshot": "converted-contact-editor.png",
+    "list_view_screenshot": "converted-contact-listview.png",
+    "welcome_guide_visible": false,
+    "console_validation_messages": [],
+    "post_content": "<!-- wp:html -->\n<header class=\"site-header\">\n    <div class=\"wrap\">\n      <a class=\"brand\" href=\"http://127.0.0.1:9400/sample-site/index.html\">\n        <img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works\n      </a>\n      <button class=\"nav-toggle\" type=\"button\" aria-controls=\"site-nav\" aria-expanded=\"false\">Menu</button>\n      <nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main\">\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/index.html\">Home</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\" aria-current=\"page\">Contact</a></li>\n        </ul>\n      </nav>\n    </div>\n  </header>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<main>\n    <section>\n      <div class=\"wrap\">\n        <h1>Book a repair</h1>\n        <p>Tell us about the bike and when you can bring it in. We reply within one working day.</p>\n\n        <form id=\"booking\" action=\"#\" method=\"post\">\n          <div>\n            <label for=\"name\">Your name</label>\n            <input id=\"name\" name=\"name\" type=\"text\" autocomplete=\"name\" required=\"\">\n          </div>\n          <div>\n            <label for=\"email\">Email</label>\n            <input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" required=\"\">\n          </div>\n          <div>\n            <label for=\"service\">Service</label>\n            <select id=\"service\" name=\"service\">\n              <option value=\"safety\">Safety check</option>\n              <option value=\"standard\" selected=\"\">Standard tune-up</option>\n              <option value=\"full\">Full service</option>\n              <option value=\"wheels\">Wheel work</option>\n              <option value=\"cargo\">Cargo bike care</option>\n            </select>\n          </div>\n          <div>\n            <label for=\"message\">About the bike</label>\n            <textarea id=\"message\" name=\"message\" rows=\"5\"></textarea>\n          </div>\n          <div>\n            <label><input type=\"checkbox\" name=\"text-me\" value=\"yes\"> Text me when it is ready</label>\n          </div>\n          <button class=\"button\" type=\"submit\">Send booking request</button>\n          <p class=\"status\" id=\"form-status\" aria-live=\"polite\">This sample form does not send anything.</p>\n        </form>\n      </div>\n    </section>\n\n    <section>\n      <div class=\"wrap\">\n        <h2>Find the workshop</h2>\n        <svg class=\"map\" width=\"320\" height=\"200\" viewBox=\"0 0 320 200\" role=\"img\" aria-labelledby=\"map-title\">\n          <title id=\"map-title\">Map showing the workshop on Ferrule Lane, next to the park</title>\n          <rect width=\"320\" height=\"200\" fill=\"#e3efe9\"></rect>\n          <rect x=\"0\" y=\"90\" width=\"320\" height=\"22\" fill=\"#ffffff\"></rect>\n          <rect x=\"150\" y=\"0\" width=\"20\" height=\"200\" fill=\"#ffffff\"></rect>\n          <rect x=\"190\" y=\"125\" width=\"110\" height=\"60\" fill=\"#b8d8c4\"></rect>\n          <circle cx=\"120\" cy=\"80\" r=\"10\" fill=\"#8a3b12\"></circle>\n          <text x=\"10\" y=\"106\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1a2624\">Ferrule Lane</text>\n          <text x=\"205\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1a2624\">Larkbend Park</text>\n        </svg>\n        <h3>Opening hours</h3>\n        <ul>\n          <li>Tuesday to Friday: 9:00 to 17:30</li>\n          <li>Saturday: 9:00 to 16:00</li>\n          <li>Sunday and Monday: closed</li>\n        </ul>\n        <p>Phone: <a href=\"tel:+15555550142\">555-0142</a> (a fictional number). Email: <a href=\"mailto:hello@quillfern.example\">hello@quillfern.example</a></p>\n        <p><a class=\"button\" href=\"http://127.0.0.1:9400/sample-site/services.html\">See services and prices</a></p>\n      </div>\n    </section>\n  </main>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<footer class=\"site-footer\">\n    <div class=\"wrap footer-cols\">\n      <div>\n        <h2>Quillfern Cycle Works</h2>\n        <p>14 Ferrule Lane, Larkbend</p>\n      </div>\n      <div>\n        <h2>Pages</h2>\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n        </ul>\n      </div>\n      <div>\n        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>\n        <p>© <span class=\"year\">2026</span> Sample site, MIT licence.</p>\n      </div>\n    </div>\n  </footer>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<script>\n    // Marks the page so the test can see this inline script ran.\n    document.body.dataset.inlineScript = 'ran';\n    // Inline script: fill in the year, and stop the sample form from posting.\n    document.querySelectorAll('.year').forEach((el) => {\n      el.textContent = String(new Date().getFullYear());\n    });\n    document.getElementById('booking').addEventListener('submit', (event) => {\n      event.preventDefault();\n      document.getElementById('form-status').textContent = 'Thanks. This is a sample form, so nothing was sent.';\n    });\n  </script>\n<!-- /wp:html -->",
+    "blocks": [
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 54
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 589
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 182
+      },
+      {
+        "name": "core/html",
+        "isValid": true,
+        "depth": 0,
+        "text_length": 499
+      }
+    ],
+    "block_counts": {
+      "core/html": 4
+    },
+    "invalid_blocks": 0,
+    "recovery_notices": 0
+  },
+  "after_boot": {
+    "converted_markup": "<!-- wp:html -->\n<header class=\"site-header\">\n    <div class=\"wrap\">\n      <a class=\"brand\" href=\"http://127.0.0.1:9400/sample-site/index.html\">\n        <img src=\"http://127.0.0.1:9400/sample-site/assets/img/logo.svg\" alt=\"\" width=\"40\" height=\"40\">\n        Quillfern Cycle Works\n      </a>\n      <button class=\"nav-toggle\" type=\"button\" aria-controls=\"site-nav\" aria-expanded=\"false\">Menu</button>\n      <nav class=\"site-nav\" id=\"site-nav\" aria-label=\"Main\">\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/index.html\">Home</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\" aria-current=\"page\">Contact</a></li>\n        </ul>\n      </nav>\n    </div>\n  </header>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<main>\n    <section>\n      <div class=\"wrap\">\n        <h1>Book a repair</h1>\n        <p>Tell us about the bike and when you can bring it in. We reply within one working day.</p>\n\n        <form id=\"booking\" action=\"#\" method=\"post\">\n          <div>\n            <label for=\"name\">Your name</label>\n            <input id=\"name\" name=\"name\" type=\"text\" autocomplete=\"name\" required=\"\">\n          </div>\n          <div>\n            <label for=\"email\">Email</label>\n            <input id=\"email\" name=\"email\" type=\"email\" autocomplete=\"email\" required=\"\">\n          </div>\n          <div>\n            <label for=\"service\">Service</label>\n            <select id=\"service\" name=\"service\">\n              <option value=\"safety\">Safety check</option>\n              <option value=\"standard\" selected=\"\">Standard tune-up</option>\n              <option value=\"full\">Full service</option>\n              <option value=\"wheels\">Wheel work</option>\n              <option value=\"cargo\">Cargo bike care</option>\n            </select>\n          </div>\n          <div>\n            <label for=\"message\">About the bike</label>\n            <textarea id=\"message\" name=\"message\" rows=\"5\"></textarea>\n          </div>\n          <div>\n            <label><input type=\"checkbox\" name=\"text-me\" value=\"yes\"> Text me when it is ready</label>\n          </div>\n          <button class=\"button\" type=\"submit\">Send booking request</button>\n          <p class=\"status\" id=\"form-status\" aria-live=\"polite\">This sample form does not send anything.</p>\n        </form>\n      </div>\n    </section>\n\n    <section>\n      <div class=\"wrap\">\n        <h2>Find the workshop</h2>\n        <svg class=\"map\" width=\"320\" height=\"200\" viewBox=\"0 0 320 200\" role=\"img\" aria-labelledby=\"map-title\">\n          <title id=\"map-title\">Map showing the workshop on Ferrule Lane, next to the park</title>\n          <rect width=\"320\" height=\"200\" fill=\"#e3efe9\"></rect>\n          <rect x=\"0\" y=\"90\" width=\"320\" height=\"22\" fill=\"#ffffff\"></rect>\n          <rect x=\"150\" y=\"0\" width=\"20\" height=\"200\" fill=\"#ffffff\"></rect>\n          <rect x=\"190\" y=\"125\" width=\"110\" height=\"60\" fill=\"#b8d8c4\"></rect>\n          <circle cx=\"120\" cy=\"80\" r=\"10\" fill=\"#8a3b12\"></circle>\n          <text x=\"10\" y=\"106\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1a2624\">Ferrule Lane</text>\n          <text x=\"205\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#1a2624\">Larkbend Park</text>\n        </svg>\n        <h3>Opening hours</h3>\n        <ul>\n          <li>Tuesday to Friday: 9:00 to 17:30</li>\n          <li>Saturday: 9:00 to 16:00</li>\n          <li>Sunday and Monday: closed</li>\n        </ul>\n        <p>Phone: <a href=\"tel:+15555550142\">555-0142</a> (a fictional number). Email: <a href=\"mailto:hello@quillfern.example\">hello@quillfern.example</a></p>\n        <p><a class=\"button\" href=\"http://127.0.0.1:9400/sample-site/services.html\">See services and prices</a></p>\n      </div>\n    </section>\n  </main>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<footer class=\"site-footer\">\n    <div class=\"wrap footer-cols\">\n      <div>\n        <h2>Quillfern Cycle Works</h2>\n        <p>14 Ferrule Lane, Larkbend</p>\n      </div>\n      <div>\n        <h2>Pages</h2>\n        <ul>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/about.html\">About</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/services.html\">Services</a></li>\n          <li><a href=\"http://127.0.0.1:9400/sample-site/contact.html\">Contact</a></li>\n        </ul>\n      </div>\n      <div>\n        <p>Quillfern Cycle Works is a fictional business, made for a software test.</p>\n        <p>© <span class=\"year\">2026</span> Sample site, MIT licence.</p>\n      </div>\n    </div>\n  </footer>\n<!-- /wp:html -->\n\n<!-- wp:html -->\n<script>\n    // Marks the page so the test can see this inline script ran.\n    document.body.dataset.inlineScript = 'ran';\n    // Inline script: fill in the year, and stop the sample form from posting.\n    document.querySelectorAll('.year').forEach((el) => {\n      el.textContent = String(new Date().getFullYear());\n    });\n    document.getElementById('booking').addEventListener('submit', (event) => {\n      event.preventDefault();\n      document.getElementById('form-status').textContent = 'Thanks. This is a sample form, so nothing was sent.';\n    });\n  </script>\n<!-- /wp:html -->"
+  },
+  "checks": null,
+  "scores": null
+}

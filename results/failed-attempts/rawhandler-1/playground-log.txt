@@ -1,0 +1,13 @@
+$ node /Users/sethshoultes/projects/wp-html-converter-test/node_modules/@wp-playground/cli/wp-playground.js server --php=8.3 --wp=7.1.4 --port=9400 --blueprint=/Users/sethshoultes/projects/wp-html-converter-test/.harness-tmp/rawhandler/blueprint.json --blueprint-may-read-adjacent-files --mount=/Users/sethshoultes/projects/wp-html-converter-test/sample-site:/wordpress/sample-site --mount=/Users/sethshoultes/projects/wp-html-converter-test/.harness-tmp/rawhandler:/harness
+
+WordPress Playground CLI
+
+PHP 8.3  WordPress 7.1.4
+Extensions intl, redis, memcached
+Mount /Users/sethshoultes/projects/wp-html-converter-test/sample-site → /wordpress/sample-site
+Mount /Users/sethshoultes/projects/wp-html-converter-test/.harness-tmp/rawhandler → /harness
+Blueprint /Users/sethshoultes/projects/wp-html-converter-test/.harness-tmp/rawhandler/blueprint.json
+
+
+Ready! WordPress is running on http://127.0.0.1:9400 (6 workers)
+
